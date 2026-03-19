@@ -1,7 +1,14 @@
 ---
 // Contém código gerado por IA
+// ignore_for_file: dangling_library_doc_comments
 /**
- * Header component with i18n support and language switcher.
+ * Header.astro
+ * 
+ * Este componente gerencia o cabeçalho principal do site, incluindo:
+ * - Navegação principal (Desktop e Mobile)
+ * - Seletor de idiomas com suporte a i18n
+ * - Efeito de scroll dinâmico (transparência e compactação)
+ * - Menu hambúrguer para dispositivos móveis
  */
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { languages } from '../i18n/ui';
@@ -9,7 +16,7 @@ import { languages } from '../i18n/ui';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-// Helper to replace the lang in the current URL
+// getLocalizedPath: Gera a URL para o idioma selecionado mantendo a rota atual.
 const getLocalizedPath = (targetLang: string) => {
     const segments = Astro.url.pathname.split('/');
     segments[1] = targetLang;
@@ -18,9 +25,10 @@ const getLocalizedPath = (targetLang: string) => {
 ---
 
 <header id="main-header" class="fixed top-0 left-0 w-full z-50 py-4 md:py-8 px-6 md:px-12 transition-all duration-300">
-    <div class="max-w-7xl mx-auto flex justify-between items-center glass py-1 md:px-8 rounded-2xl shadow-xl transition-all duration-300" id="header-container">
-        <a href={`/${lang}/`} class="flex items-center gap-3 group transition-transform hover:scale-105">
-            <div class="w-12 h-12 flex items-center justify-center">
+    <div class="max-w-7xl mx-auto flex justify-between items-center glass py-1 md:px-8 rounded-2xl shadow-xl transition-all duration-300 relative" id="header-container">
+        <!-- Logo -->
+        <a href={`/${lang}/`} class="flex items-center gap-3 group transition-transform hover:scale-105 z-50">
+            <div class="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
                 <img 
                     src="/images/svg_logo_livre_1024x1024.svg" 
                     alt={t('nav.logo_alt')} 
@@ -28,27 +36,29 @@ const getLocalizedPath = (targetLang: string) => {
                 />
             </div>
             <div class="flex flex-col">
-                <span class="text-xl font-bold tracking-tight leading-none text-white">Kontrol<span class="text-accent underline decoration-2 underline-offset-4">Sub</span></span>
-                <span class="text-[10px] text-text-secondary font-medium tracking-widest uppercase mt-1.5 opacity-70 group-hover:text-accent transition-colors">by Vektor Digital</span>
+                <span class="text-lg md:text-xl font-bold tracking-tight leading-none text-white">Kontrol<span class="text-accent underline decoration-2 underline-offset-4">Sub</span></span>
+                <span class="text-[8px] md:text-[10px] text-text-secondary font-medium tracking-widest uppercase mt-1 md:mt-1.5 opacity-70 group-hover:text-accent transition-colors whitespace-nowrap">by Vektor Digital</span>
             </div>
         </a>
         
+        <!-- Desktop Nav -->
         <nav class="hidden md:flex items-center gap-8">
             <a href="#inicio" class="text-sm font-medium hover:text-accent transition-colors">{t('nav.home')}</a>
             <a href="#funcionalidades" class="text-sm font-medium hover:text-accent transition-colors">{t('nav.features')}</a>
             <a href="#contato" class="text-sm font-medium hover:text-accent transition-colors">{t('nav.contact')}</a>
         </nav>
 
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 md:gap-4 z-50">
             <!-- Language Switcher -->
-            <div class="relative group">
-                <button class="glass px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-white/10 transition-all flex items-center gap-2">
+            <div class="relative" id="lang-switcher">
+                <button id="lang-button" class="glass px-2 md:px-3 py-1.5 rounded-lg text-[10px] md:text-xs font-bold hover:bg-white/10 transition-all flex items-center gap-1 md:gap-2">
                     <span class="opacity-70">🌐</span>
-                    {languages[lang as keyof typeof languages]}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:rotate-180 transition-transform"><path d="m6 9 6 6 6-6"/></svg>
+                    <span class="hidden sm:inline">{languages[lang as keyof typeof languages]}</span>
+                    <span class="sm:hidden">{lang.toUpperCase()}</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="transition-transform" id="lang-chevron"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 
-                <div class="absolute right-0 mt-2 w-32 glass-dark rounded-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-2xl overflow-hidden py-1">
+                <div id="lang-menu" class="absolute right-0 mt-2 w-32 glass-dark rounded-xl border border-white/10 opacity-0 invisible transition-all duration-300 shadow-2xl overflow-hidden py-1">
                     {Object.entries(languages).map(([id, label]) => (
                         <a 
                             href={getLocalizedPath(id)} 
@@ -59,6 +69,21 @@ const getLocalizedPath = (targetLang: string) => {
                     ))}
                 </div>
             </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-toggle" class="md:hidden glass p-2 rounded-lg text-white hover:bg-white/10 transition-all" aria-label="Menu">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                <svg id="close-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Overlay -->
+        <div id="mobile-nav" class="absolute top-[calc(100%+1rem)] left-0 w-full glass-dark rounded-2xl border border-white/10 p-6 md:hidden opacity-0 invisible translate-y-2 transition-all duration-300 z-40">
+            <nav class="flex flex-col gap-6">
+                <a href="#inicio" class="mobile-nav-link text-lg font-medium hover:text-accent transition-colors">{t('nav.home')}</a>
+                <a href="#funcionalidades" class="mobile-nav-link text-lg font-medium hover:text-accent transition-colors">{t('nav.features')}</a>
+                <a href="#contato" class="mobile-nav-link text-lg font-medium hover:text-accent transition-colors">{t('nav.contact')}</a>
+            </nav>
         </div>
     </div>
 </header>
@@ -66,7 +91,16 @@ const getLocalizedPath = (targetLang: string) => {
 <script>
     const header = document.getElementById('main-header');
     const container = document.getElementById('header-container');
-    
+    const langButton = document.getElementById('lang-button');
+    const langMenu = document.getElementById('lang-menu');
+    const langChevron = document.getElementById('lang-chevron');
+    const mobileToggle = document.getElementById('mobile-menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    // Scroll Handler
     window.addEventListener('scroll', () => {
         if (window.scrollY > 20) {
             header?.classList.remove('py-4', 'md:py-8');
@@ -80,6 +114,71 @@ const getLocalizedPath = (targetLang: string) => {
             container?.classList.add('bg-white/5');
         }
     });
+
+    // Language Dropdown Toggle
+    langButton?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = !langMenu?.classList.contains('invisible');
+        
+        if (isOpen) {
+            closeLangMenu();
+        } else {
+            openLangMenu();
+            closeMobileMenu();
+        }
+    });
+
+    function openLangMenu() {
+        langMenu?.classList.remove('opacity-0', 'invisible');
+        langChevron?.classList.add('rotate-180');
+    }
+
+    function closeLangMenu() {
+        langMenu?.classList.add('opacity-0', 'invisible');
+        langChevron?.classList.remove('rotate-180');
+    }
+
+    // Mobile Menu Toggle
+    mobileToggle?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = !mobileNav?.classList.contains('invisible');
+        
+        if (isOpen) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+            closeLangMenu();
+        }
+    });
+
+    function openMobileMenu() {
+        mobileNav?.classList.remove('opacity-0', 'invisible', 'translate-y-2');
+        menuIcon?.classList.add('hidden');
+        closeIcon?.classList.remove('hidden');
+    }
+
+    function closeMobileMenu() {
+        mobileNav?.classList.add('opacity-0', 'invisible', 'translate-y-2');
+        menuIcon?.classList.remove('hidden');
+        closeIcon?.classList.add('hidden');
+    }
+
+    // Close on click outside
+    document.addEventListener('click', () => {
+        closeLangMenu();
+        closeMobileMenu();
+    });
+
+    // Close mobile menu on link click
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            closeMobileMenu();
+        });
+    });
+
+    // Prevent closing when clicking inside menus
+    langMenu?.addEventListener('click', (e) => e.stopPropagation());
+    mobileNav?.addEventListener('click', (e) => e.stopPropagation());
 </script>
 
 <style>
@@ -88,3 +187,4 @@ const getLocalizedPath = (targetLang: string) => {
         backdrop-blur: 20px;
     }
 </style>
+
