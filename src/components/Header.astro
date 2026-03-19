@@ -54,7 +54,7 @@ const getLocalizedPath = (targetLang: string) => {
                 <button id="lang-button" class="glass px-2 md:px-3 py-1.5 rounded-lg text-[10px] md:text-xs font-bold hover:bg-white/10 transition-all flex items-center gap-1 md:gap-2">
                     <span class="opacity-70">🌐</span>
                     <span class="hidden sm:inline">{languages[lang as keyof typeof languages]}</span>
-                    <span class="sm:hidden">{lang.toUpperCase()}</span>
+                    <span class="sm:hidden">{lang.slice(0, 2).toUpperCase()}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="transition-transform" id="lang-chevron"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 
@@ -65,7 +65,7 @@ const getLocalizedPath = (targetLang: string) => {
                             class={`block px-3 md:px-4 py-2 text-[10px] md:text-xs font-medium hover:bg-accent/20 transition-colors ${id === lang ? 'text-accent' : 'text-white'}`}
                         >
                             <span class="hidden sm:inline">{label}</span>
-                            <span class="sm:hidden">{id.toUpperCase()}</span>
+                            <span class="sm:hidden">{id.slice(0, 2).toUpperCase()}</span>
                         </a>
                     ))}
                 </div>
