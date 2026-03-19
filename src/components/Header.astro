@@ -19,13 +19,19 @@ const getLocalizedPath = (targetLang: string) => {
 
 <header id="main-header" class="fixed top-0 left-0 w-full z-50 py-4 px-6 md:px-12 transition-all duration-300">
     <div class="max-w-7xl mx-auto flex justify-between items-center glass p-4 md:px-8 rounded-2xl shadow-xl transition-all duration-300" id="header-container">
-        <div class="flex items-center gap-2">
-            <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-background">K</div>
-            <div class="flex flex-col">
-                <span class="text-xl font-bold tracking-tight leading-none">Kontrol<span class="text-accent underline decoration-2 underline-offset-4">Sub</span></span>
-                <span class="text-[10px] text-text-secondary font-medium tracking-widest uppercase mt-0.5 opacity-70">by Vektor Digital</span>
+        <a href={`/${lang}/`} class="flex items-center gap-3 group transition-transform hover:scale-105">
+            <div class="w-10 h-10 flex items-center justify-center">
+                <img 
+                    src="/images/svg_logo_kontrol_sem_fundo_1024x1024.svg" 
+                    alt={t('nav.logo_alt')} 
+                    class="w-full h-full object-contain"
+                />
             </div>
-        </div>
+            <div class="flex flex-col">
+                <span class="text-xl font-bold tracking-tight leading-none text-white">Kontrol<span class="text-accent underline decoration-2 underline-offset-4">Sub</span></span>
+                <span class="text-[10px] text-text-secondary font-medium tracking-widest uppercase mt-0.5 opacity-70 group-hover:text-accent transition-colors">by Vektor Digital</span>
+            </div>
+        </a>
         
         <nav class="hidden md:flex items-center gap-8">
             <a href="#inicio" class="text-sm font-medium hover:text-accent transition-colors">{t('nav.home')}</a>
