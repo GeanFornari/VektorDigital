@@ -58,13 +58,14 @@ const getLocalizedPath = (targetLang: string) => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="transition-transform" id="lang-chevron"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 
-                <div id="lang-menu" class="absolute right-0 mt-2 w-32 glass-dark rounded-xl border border-white/10 opacity-0 invisible transition-all duration-300 shadow-2xl overflow-hidden py-1">
+                <div id="lang-menu" class="absolute right-0 mt-2 w-24 md:w-32 glass-dark rounded-xl border border-white/10 opacity-0 invisible transition-all duration-300 shadow-2xl overflow-hidden py-1">
                     {Object.entries(languages).map(([id, label]) => (
                         <a 
                             href={getLocalizedPath(id)} 
-                            class={`block px-4 py-2 text-xs font-medium hover:bg-accent/20 transition-colors ${id === lang ? 'text-accent' : 'text-white'}`}
+                            class={`block px-3 md:px-4 py-2 text-[10px] md:text-xs font-medium hover:bg-accent/20 transition-colors ${id === lang ? 'text-accent' : 'text-white'}`}
                         >
-                            {label}
+                            <span class="hidden sm:inline">{label}</span>
+                            <span class="sm:hidden">{id.toUpperCase()}</span>
                         </a>
                     ))}
                 </div>
