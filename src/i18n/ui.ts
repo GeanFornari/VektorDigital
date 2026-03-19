@@ -8,7 +8,7 @@ export const languages = {
   'de': 'Deutsch',
 };
 
-export const defaultLang = 'pt-br';
+export const defaultLang = 'en-us';
 
 export const ui = {
   'pt-br': {
