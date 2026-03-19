@@ -17,7 +17,7 @@ const getLocalizedPath = (targetLang: string) => {
 };
 ---
 
-<header id="main-header" class="fixed top-0 left-0 w-full z-50 py-2 px-6 md:px-12 transition-all duration-300">
+<header id="main-header" class="fixed top-0 left-0 w-full z-50 py-4 md:py-8 px-6 md:px-12 transition-all duration-300">
     <div class="max-w-7xl mx-auto flex justify-between items-center glass py-1 md:px-8 rounded-2xl shadow-xl transition-all duration-300" id="header-container">
         <a href={`/${lang}/`} class="flex items-center gap-3 group transition-transform hover:scale-105">
             <div class="w-12 h-12 flex items-center justify-center">
@@ -69,10 +69,12 @@ const getLocalizedPath = (targetLang: string) => {
     
     window.addEventListener('scroll', () => {
         if (window.scrollY > 20) {
+            header?.classList.remove('py-4', 'md:py-8');
             header?.classList.add('py-2');
             container?.classList.add('bg-background/80', 'backdrop-blur-2xl');
             container?.classList.remove('bg-white/5');
         } else {
+            header?.classList.add('py-4', 'md:py-8');
             header?.classList.remove('py-2');
             container?.classList.remove('bg-background/80', 'backdrop-blur-2xl');
             container?.classList.add('bg-white/5');
