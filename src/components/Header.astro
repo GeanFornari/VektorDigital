@@ -51,7 +51,7 @@ const getLocalizedPath = (targetLang: string) => {
         <div class="flex items-center gap-2 md:gap-4 z-50">
             <!-- Language Switcher -->
             <div class="relative" id="lang-switcher">
-                <button id="lang-button" class="glass px-2 md:px-3 py-1.5 rounded-lg text-[10px] md:text-xs font-bold hover:bg-white/10 transition-all flex items-center gap-1 md:gap-2">
+                <button id="lang-button" class="px-2 md:px-3 py-1.5 rounded-lg text-[10px] md:text-xs font-bold md:glass hover:bg-white/10 transition-all flex items-center gap-1 md:gap-2">
                     <span class="opacity-70">🌐</span>
                     <span class="hidden sm:inline">{languages[lang as keyof typeof languages]}</span>
                     <span class="sm:hidden">{lang.slice(0, 2).toUpperCase()}</span>
@@ -72,7 +72,7 @@ const getLocalizedPath = (targetLang: string) => {
             </div>
 
             <!-- Mobile Menu Toggle -->
-            <button id="mobile-menu-toggle" class="md:hidden glass p-2 rounded-lg text-white hover:bg-white/10 transition-all" aria-label="Menu">
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-lg text-white hover:bg-white/10 transition-all" aria-label="Menu">
                 <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                 <svg id="close-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
