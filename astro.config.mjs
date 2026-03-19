@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://vektordigital.com.br',
   i18n: {
+    // TODO: mudar para en-us quando as linguagens estiverem prontas.
     defaultLocale: "pt-br",
     locales: ["pt-br", "en-us", "es", "fr", "de"],
   },
