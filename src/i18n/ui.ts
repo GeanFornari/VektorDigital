@@ -1,17 +1,17 @@
 // Contém código gerado por IA
 
 export const languages = {
-  'pt-br': 'Português',
-  'en-us': 'English',
+  'pt': 'Português',
+  'en': 'English',
   'es': 'Español',
   'fr': 'Français',
   'de': 'Deutsch',
 };
 
-export const defaultLang = 'en-us';
+export const defaultLang = 'en';
 
 export const ui = {
-  'pt-br': {
+  'pt': {
     'nav.home': 'Início',
     'nav.features': 'Funcionalidades',
     'nav.contact': 'Contato',
@@ -49,7 +49,7 @@ export const ui = {
     'hero.mockup_alt': 'Dashboard do App KontrolSub mostrando gastos',
     'product.mockup_alt': 'Dashboard de análise mostrando categorias de gastos',
   },
-  'en-us': {
+  'en': {
     'nav.home': 'Home',
     'nav.features': 'Features',
     'nav.contact': 'Contact',
