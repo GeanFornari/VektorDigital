@@ -5,7 +5,7 @@
  * Inclui SEO, OpenGraph e configurações de performance.
  */
 import '../styles/global.css';
-import { getLangFromUrl } from '../i18n/utils';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 interface Props {
 	title: string;
@@ -14,9 +14,11 @@ interface Props {
 }
 
 const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const { 
 	title, 
-	description = "KontrolSub - O controle total das suas assinaturas na palma da mão.",
+	description = t('seo.description'),
 	image = "/og-image.jpg"
 } = Astro.props;
 
@@ -63,6 +65,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://www.vekt
 	<body>
 		<slot />
 	</body>
+    <script>
+        // Scroll Reveal Observer global
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal-visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('reveal');
+            observer.observe(section);
+        });
+    </script>
 </html>
 
 <style>
