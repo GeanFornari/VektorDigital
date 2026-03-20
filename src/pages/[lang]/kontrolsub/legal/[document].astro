@@ -9,13 +9,12 @@
  *   /[lang]/kontrolsub/legal/terms-of-use
  *
  * Funções:
- *   - getStaticPaths(): gera 10 rotas estáticas (5 idiomas × 2 documentos)
- *   - rawContent: conteúdo Markdown lido via import.meta.glob com ?raw
- *   - marked: converte o Markdown em HTML para renderização
+ *   - getStaticPaths(): usa Content Collections do Astro para gerar 10 rotas (5 idiomas × 2 docs)
+ *   - entry.render(): renderiza o Markdown nativamente pelo Astro, sem dependências externas
  */
+import { getCollection, render } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
 import { languages } from '../../../../i18n/ui';
-import { marked } from 'marked';
 
 // Títulos das páginas por idioma e slug de documento
 const PAGE_TITLES: Record<string, Record<string, string>> = {
@@ -27,37 +26,32 @@ const PAGE_TITLES: Record<string, Record<string, string>> = {
 };
 
 export async function getStaticPaths() {
-  // DOCUMENTS precisa estar dentro da função para funcionar corretamente no bundle do Astro
-  const documents = ['privacy-policy', 'terms-of-use'];
+  // Exemplo de ID para cada entry: "kontrolsub/privacy-policy/en"
+  // slug = kontrolsub/privacy-policy/en → partes: [app, document, lang]
+  const allLegal = await getCollection('legal');
 
-  const files = import.meta.glob<string>(
-    '/src/content/legal/kontrolsub/**/*.md',
-    { query: '?raw', import: 'default' }
-  );
-
-  const paths = [];
-
-  for (const lang of Object.keys(languages)) {
-    for (const document of documents) {
-      const key = `/src/content/legal/kontrolsub/${document}/${lang}.md`;
-      if (files[key]) {
-        const rawContent = await files[key]();
-        paths.push({
-          params: { lang, document },
-          props: { rawContent },
-        });
-      }
-    }
-  }
-
-  return paths;
+  return allLegal
+    .filter((entry) => {
+      const parts = entry.id.split('/');
+      // Filtra: app = kontrolsub, lang deve ser um idioma suportado
+      return parts[0] === 'kontrolsub' && parts[2] && parts[2] in languages;
+    })
+    .map((entry) => {
+      const parts = entry.id.split('/'); // ['kontrolsub', 'privacy-policy', 'en']
+      const lang = parts[2].replace(/\.md$/, '');
+      const document = parts[1];
+      return {
+        params: { lang, document },
+        props: { entry },
+      };
+    });
 }
 
 const { lang, document } = Astro.params;
-const { rawContent } = Astro.props;
+const { entry } = Astro.props;
+const { Content } = await render(entry);
 
-const pageTitle = PAGE_TITLES[lang]?.[document] ?? 'Legal';
-const htmlContent = await marked(rawContent as string);
+const pageTitle = PAGE_TITLES[lang ?? 'en']?.[document ?? ''] ?? 'Legal';
 ---
 
 <Layout title={pageTitle}>
@@ -66,7 +60,9 @@ const htmlContent = await marked(rawContent as string);
       <a href={`/${lang}/`} class="back-link">
         ← {lang === 'pt' ? 'Voltar' : lang === 'es' ? 'Volver' : lang === 'fr' ? 'Retour' : lang === 'de' ? 'Zurück' : 'Back'}
       </a>
-      <article class="legal-content" set:html={htmlContent} />
+      <article class="legal-content">
+        <Content />
+      </article>
     </div>
   </main>
 </Layout>
