@@ -1,0 +1,222 @@
+---
+// ignore_for_file: dangling_library_doc_comments
+// Contém código gerado por IA
+/**
+ * Página legal dinâmica do KontrolSub — gera todas as combinações de idioma × documento.
+ *
+ * Rotas geradas:
+ *   /[lang]/kontrolsub/legal/privacy-policy
+ *   /[lang]/kontrolsub/legal/terms-of-use
+ *
+ * Funções:
+ *   - getStaticPaths(): gera 10 rotas estáticas (5 idiomas × 2 documentos)
+ *   - rawContent: conteúdo Markdown lido via import.meta.glob com ?raw
+ *   - marked: converte o Markdown em HTML para renderização
+ */
+import Layout from '../../../../layouts/Layout.astro';
+import { languages } from '../../../../i18n/ui';
+import { marked } from 'marked';
+
+// Títulos das páginas por idioma e slug de documento
+const PAGE_TITLES: Record<string, Record<string, string>> = {
+  pt: { 'privacy-policy': 'Política de Privacidade', 'terms-of-use': 'Termos de Uso' },
+  en: { 'privacy-policy': 'Privacy Policy', 'terms-of-use': 'Terms of Use' },
+  es: { 'privacy-policy': 'Política de Privacidad', 'terms-of-use': 'Términos de Uso' },
+  fr: { 'privacy-policy': 'Politique de Confidentialité', 'terms-of-use': "Conditions d'Utilisation" },
+  de: { 'privacy-policy': 'Datenschutzrichtlinie', 'terms-of-use': 'Nutzungsbedingungen' },
+};
+
+export async function getStaticPaths() {
+  // DOCUMENTS precisa estar dentro da função para funcionar corretamente no bundle do Astro
+  const documents = ['privacy-policy', 'terms-of-use'];
+
+  const files = import.meta.glob<string>(
+    '/src/content/legal/kontrolsub/**/*.md',
+    { query: '?raw', import: 'default' }
+  );
+
+  const paths = [];
+
+  for (const lang of Object.keys(languages)) {
+    for (const document of documents) {
+      const key = `/src/content/legal/kontrolsub/${document}/${lang}.md`;
+      if (files[key]) {
+        const rawContent = await files[key]();
+        paths.push({
+          params: { lang, document },
+          props: { rawContent },
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { lang, document } = Astro.params;
+const { rawContent } = Astro.props;
+
+const pageTitle = PAGE_TITLES[lang]?.[document] ?? 'Legal';
+const htmlContent = await marked(rawContent as string);
+---
+
+<Layout title={pageTitle}>
+  <main class="legal-page">
+    <div class="legal-container">
+      <a href={`/${lang}/`} class="back-link">
+        ← {lang === 'pt' ? 'Voltar' : lang === 'es' ? 'Volver' : lang === 'fr' ? 'Retour' : lang === 'de' ? 'Zurück' : 'Back'}
+      </a>
+      <article class="legal-content" set:html={htmlContent} />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .legal-page {
+    min-height: 100vh;
+    background: var(--color-background, #0a0a0f);
+    padding: 5rem 1.5rem 4rem;
+  }
+
+  .legal-container {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #a78bfa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: #c4b5fd;
+  }
+
+  .legal-content :global(h1) {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .legal-content :global(h2) {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+  }
+
+  .legal-content :global(h3) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cbd5e1;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .legal-content :global(p) {
+    color: #94a3b8;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .legal-content :global(ul),
+  .legal-content :global(ol) {
+    color: #94a3b8;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .legal-content :global(li) {
+    margin-bottom: 0.4rem;
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .legal-content :global(strong) {
+    color: #e2e8f0;
+    font-weight: 600;
+  }
+
+  .legal-content :global(em) {
+    color: #cbd5e1;
+  }
+
+  .legal-content :global(a) {
+    color: #a78bfa;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .legal-content :global(a:hover) {
+    color: #c4b5fd;
+  }
+
+  .legal-content :global(hr) {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    margin: 2rem 0;
+  }
+
+  .legal-content :global(blockquote) {
+    border-left: 3px solid #a78bfa;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+    background: rgba(167, 139, 250, 0.06);
+    border-radius: 0 8px 8px 0;
+  }
+
+  .legal-content :global(blockquote p) {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+  }
+
+  .legal-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.88rem;
+  }
+
+  .legal-content :global(th) {
+    background: rgba(167, 139, 250, 0.1);
+    color: #e2e8f0;
+    font-weight: 600;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+  }
+
+  .legal-content :global(td) {
+    color: #94a3b8;
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    vertical-align: top;
+  }
+
+  .legal-content :global(tr:last-child td) {
+    border-bottom: none;
+  }
+
+  .legal-content :global(code) {
+    background: rgba(167, 139, 250, 0.1);
+    color: #c4b5fd;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-family: 'JetBrains Mono', monospace;
+  }
+</style>
