@@ -49,13 +49,13 @@ const t = useTranslations(lang as keyof typeof languages);
 					{t('hero.subtitle')}
 				</p>
 
-				<div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-					<button class="bg-accent text-background px-10 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform accent-glow">
-						{t('hero.cta1')}
-					</button>
-					<button class="glass px-10 py-4 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all">
-						{t('hero.cta2')}
-					</button>
+				<div class="flex flex-wrap gap-4 justify-center items-center scale-110">
+					<a href="#" class="transition-transform hover:scale-105 active:scale-95">
+						<img src="/images/Download_on_the_App_Store_Badge.svg.png" alt="Download on the App Store" class="h-12 md:h-14 w-auto" />
+					</a>
+					<a href="#" class="transition-transform hover:scale-105 active:scale-95">
+						<img src="/images/get-it-on-google-play-badge.png" alt="Get it on Google Play" class="h-12 md:h-14 w-auto" />
+					</a>
 				</div>
 
                 <!-- Hero Mockup -->
