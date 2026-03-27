@@ -1,123 +1,123 @@
-# Conditions d'Utilisation — Kontrol
+# Nutzungsbedingungen — Kontrol
 
-**Version :** 1.0  
-**Dernière mise à jour :** 19 mars 2026  
-**Développeur :** Geancarlo Fornari  
-**Contact :** [EMAIL_ADDRESS]
-
----
-
-## 1. Acceptation des Conditions
-
-En téléchargeant, installant ou utilisant l'application **Kontrol** (« Application »), vous acceptez, de manière expresse et irrévocable, les présentes Conditions d'Utilisation. Si vous n'êtes pas d'accord avec une partie de ce document, vous n'êtes pas autorisé à utiliser l'Application.
+**Version:** 1.0  
+**Letzte Aktualisierung:** 19. März 2026  
+**Entwickler:** Geancarlo Fornari  
+**Kontakt:** [EMAIL_ADDRESS]
 
 ---
 
-## 2. Description du Service
+## 1. Zustimmung zu den Bedingungen
 
-**Kontrol** est une application de gestion personnelle des abonnements récurrents. Elle permet à l'utilisateur de :
-
-- Enregistrer, modifier et supprimer des abonnements à des services numériques.
-- Visualiser les dépenses mensuelles et annuelles consolidées.
-- Gérer les périodes d'essai gratuites (*trial*) et les dates de facturation.
-- Recevoir des notifications locales de rappels et d'échéances.
-- Accéder à un calendrier financier des paiements futurs.
-
-Kontrol **n'effectue** aucun prélèvement, **n'a** pas accès aux comptes bancaires et **n'exécute** aucune transaction financière au nom de l'utilisateur. Toutes les informations sont saisies manuellement par l'utilisateur lui-même.
+Durch das Herunterladen, Installieren oder Verwenden der Anwendung **Kontrol** („App") erklären Sie sich ausdrücklich und unwiderruflich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieses Dokuments nicht einverstanden sind, sind Sie nicht berechtigt, die App zu verwenden.
 
 ---
 
-## 3. Inscription et Compte Utilisateur
+## 2. Beschreibung des Dienstes
 
-### 3.1 Inscription Anonyme
+**Kontrol** ist eine persönliche App zur Verwaltung wiederkehrender Abonnements. Sie ermöglicht dem Nutzer:
 
-Kontrol adopte l'approche d'**Inscription Différée** (*Lazy Registration*) : lors de la première ouverture de l'Application, un compte anonyme est automatiquement créé via Firebase Authentication, sans exiger d'adresse e-mail ni de mot de passe. Cela permet une utilisation immédiate de l'Application.
+- Digitale Service-Abonnements zu registrieren, zu bearbeiten und zu löschen.
+- Konsolidierte monatliche und jährliche Ausgaben einzusehen.
+- Kostenlose Testzeiträume (*Trial*) und Abrechnungsdaten zu verwalten.
+- Lokale Erinnerungs- und Fälligkeitsbenachrichtigungen zu erhalten.
+- Auf einen Finanzkalender zukünftiger Zahlungen zuzugreifen.
 
-### 3.2 Association de Compte
-
-L'utilisateur peut, à tout moment, associer son compte anonyme à :
-
-- **Google :** via Google Sign-In.
-- **Apple :** via Sign In with Apple (exclusif aux utilisateurs iOS).
-
-L'association n'est pas obligatoire, mais est recommandée pour garantir la conservation des données en cas de changement de dispositif ou de réinstallation de l'Application.
-
-### 3.3 Responsabilité du Compte
-
-Vous êtes responsable de la sécurité de votre appareil et des identifiants des comptes Google ou Apple associés. Le développeur décline toute responsabilité en cas d'accès non autorisé résultant d'une défaillance de sécurité du côté de l'utilisateur.
+Kontrol erhebt **keine** Gebühren, hat **keinen** Zugriff auf Bankkonten und führt **keine** Finanztransaktionen im Namen des Nutzers aus. Alle Informationen werden manuell vom Nutzer selbst eingegeben.
 
 ---
 
-## 4. Utilisation Acceptable
+## 3. Registrierung und Nutzerkonto
 
-L'utilisateur s'engage à utiliser l'Application exclusivement à des fins licites et personnelles. Il est expressément interdit de :
+### 3.1 Anonyme Registrierung
 
-- Utiliser l'Application à des fins illégales ou non autorisées.
-- Tenter d'effectuer de l'ingénierie inverse, de décompiler ou d'extraire le code source de l'Application.
-- Saisir de fausses informations avec l'intention de tromper d'autres utilisateurs ou systèmes.
-- Utiliser l'Application pour collecter des données de tiers sans leur consentement.
+Kontrol verfolgt den Ansatz der **Lazy Registration** (aufgeschobene Registrierung): Beim ersten Öffnen der App wird automatisch ein anonymes Konto über Firebase Authentication erstellt, ohne dass eine E-Mail-Adresse oder ein Passwort erforderlich ist. Dies ermöglicht eine sofortige Nutzung der App.
 
----
+### 3.2 Kontoverknüpfung
 
-## 5. Plans, Abonnements et Achats Intégrés
+Der Nutzer kann jederzeit sein anonymes Konto mit folgenden Diensten verknüpfen:
 
-Kontrol peut proposer des plans payants et des fonctionnalités premium via des **achats intégrés** gérés par :
+- **Google:** über Google Sign-In.
+- **Apple:** über Sign In with Apple (exklusiv für iOS-Nutzer).
 
-- **Apple App Store** (pour les utilisateurs iOS/iPadOS).
-- **Google Play Store** (pour les utilisateurs Android).
+Die Verknüpfung ist nicht obligatorisch, wird jedoch empfohlen, um sicherzustellen, dass Daten bei einem Gerätewechsel oder einer Neuinstallation der App erhalten bleiben.
 
-Les achats sont entièrement traités par les boutiques d'applications respectives. Le développeur de Kontrol ne stocke pas de données de carte bancaire ni aucune information de paiement. Tout remboursement doit être demandé directement à Apple ou à Google, conformément aux politiques de chaque plateforme.
+### 3.3 Kontoverantwortung
 
----
-
-## 6. Propriété Intellectuelle
-
-Tout le contenu de l'Application — incluant le code source, le design, les logos, les textes, les icônes et les fonctionnalités — est la propriété exclusive du développeur ou lui est concédé sous licence. Toute reproduction, distribution ou modification sans autorisation préalable et écrite est interdite.
-
-Tous les logos et marques de tiers affichés dans Kontrol sont la propriété de leurs détenteurs respectifs. Ces logos sont utilisés uniquement à des fins informatives, pour identifier les services auxquels se rapportent les abonnements de l'utilisateur. Kontrol n'est affilié, approuvé ni sponsorisé par aucun des services répertoriés.
+Sie sind für die Sicherheit Ihres Geräts und der Anmeldedaten Ihrer verknüpften Google- oder Apple-Konten verantwortlich. Der Entwickler übernimmt keine Verantwortung für unbefugten Zugriff, der auf eine Sicherheitslücke auf Seiten des Nutzers zurückzuführen ist.
 
 ---
 
-## 7. Exclusion de Garanties
+## 4. Zulässige Nutzung
 
-### 7.1 Exactitude des Informations
+Der Nutzer verpflichtet sich, die App ausschließlich für rechtmäßige und persönliche Zwecke zu nutzen. Ausdrücklich verboten ist:
 
-Kontrol est un outil d'aide au contrôle financier personnel. **Nous ne garantissons pas** l'exactitude, l'exhaustivité ou l'actualité des informations saisies par l'utilisateur lui-même. Les décisions financières prises sur la base des données de l'Application sont de la seule responsabilité de l'utilisateur.
-
-### 7.2 Disponibilité du Service
-
-L'Application est fournie **« en l'état »** (*as is*), sans garantie de disponibilité ininterrompue. Le développeur se réserve le droit de modifier, suspendre ou arrêter le service à tout moment, avec ou sans préavis.
-
-### 7.3 Services Tiers
-
-Kontrol intègre des services tiers (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). Le développeur ne saurait être tenu responsable des pannes, indisponibilités ou modifications de ces services externes.
+- Die Nutzung der App für illegale oder nicht autorisierte Zwecke.
+- Der Versuch, die App zurückzuentwickeln (Reverse Engineering), zu dekompilieren oder den Quellcode zu extrahieren.
+- Die Eingabe falscher Informationen mit der Absicht, andere Nutzer oder Systeme zu täuschen.
+- Die Nutzung der App zur Erfassung von Daten Dritter ohne deren Einwilligung.
 
 ---
 
-## 8. Limitation de Responsabilité
+## 5. Pläne, Abonnements und In-App-Käufe
 
-Dans la mesure maximale permise par la loi applicable, le développeur ne pourra être tenu responsable des dommages indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application, y compris, sans limitation, la perte de données ou de bénéfices.
+Kontrol kann kostenpflichtige Pläne und Premium-Funktionen über **In-App-Käufe** anbieten, die verwaltet werden von:
 
----
+- **Apple App Store** (für iOS/iPadOS-Nutzer).
+- **Google Play Store** (für Android-Nutzer).
 
-## 9. Résiliation
-
-Le développeur peut mettre fin ou suspendre l'accès de l'utilisateur à l'Application à tout moment et sans préavis en cas de violation des présentes Conditions. L'utilisateur peut cesser d'utiliser l'Application à tout moment en la désinstallant de son appareil.
-
----
-
-## 10. Modifications des Conditions
-
-Le développeur se réserve le droit de modifier les présentes Conditions à tout moment. Les modifications entrent en vigueur dès leur publication. L'utilisation continue de l'Application après la publication de nouvelles Conditions vaut acceptation des modifications.
+Käufe werden vollständig von den jeweiligen App-Stores abgewickelt. Der Entwickler von Kontrol speichert keine Kreditkartendaten oder sonstige Zahlungsinformationen. Alle Rückerstattungen müssen direkt bei Apple oder Google entsprechend den Richtlinien der jeweiligen Plattform beantragt werden.
 
 ---
 
-## 11. Droit Applicable et Juridiction
+## 6. Geistiges Eigentum
 
-Les présentes Conditions sont régies par les lois de la **République Fédérative du Brésil**. Pour les utilisateurs internationaux, les litiges qui ne peuvent être résolus à l'amiable pourront également être soumis aux lois de protection des consommateurs du pays de résidence de l'utilisateur, dans la mesure où la législation applicable l'exige.
+Alle Inhalte der App — einschließlich Quellcode, Design, Logos, Texte, Symbole und Funktionen — sind ausschließliches Eigentum des Entwicklers oder ihm lizenziert. Jegliche Vervielfältigung, Verbreitung oder Modifikation ohne vorherige schriftliche Genehmigung ist untersagt.
+
+Alle in Kontrol angezeigten Drittanbieter-Logos und Marken sind Eigentum ihrer jeweiligen Inhaber. Diese Logos werden ausschließlich zu Informationszwecken verwendet, um die Dienste zu identifizieren, auf die sich die Abonnements des Nutzers beziehen. Kontrol ist weder mit den aufgeführten Diensten verbunden, noch wird es von diesen unterstützt oder gesponsert.
 
 ---
 
-## 12. Contact
+## 7. Haftungsausschluss
 
-Pour toute question concernant ces Conditions, veuillez nous contacter à : **[adresse e-mail de support]**
+### 7.1 Genauigkeit der Informationen
+
+Kontrol ist ein Hilfsmittel zur persönlichen Finanzkontrolle. **Wir übernehmen keine Garantie** für die Richtigkeit, Vollständigkeit oder Aktualität der vom Nutzer selbst eingegebenen Informationen. Finanzielle Entscheidungen, die auf den Daten der App basieren, liegen in der alleinigen Verantwortung des Nutzers.
+
+### 7.2 Verfügbarkeit des Dienstes
+
+Die App wird **„wie besehen"** (*as is*) bereitgestellt, ohne Garantie auf ununterbrochene Verfügbarkeit. Der Entwickler behält sich das Recht vor, den Dienst jederzeit mit oder ohne Vorankündigung zu ändern, auszusetzen oder einzustellen.
+
+### 7.3 Dienste Dritter
+
+Kontrol integriert Dienste Dritter (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). Der Entwickler übernimmt keine Verantwortung für Ausfälle, Nichtverfügbarkeiten oder Änderungen dieser externen Dienste.
+
+---
+
+## 8. Haftungsbeschränkung
+
+Im größtmöglichen gesetzlich zulässigen Umfang haftet der Entwickler nicht für indirekte, zufällige, besondere oder Folgeschäden, die sich aus der Nutzung oder der Unmöglichkeit der Nutzung der App ergeben, einschließlich, ohne Einschränkung, Datenverlust oder entgangenem Gewinn.
+
+---
+
+## 9. Kündigung
+
+Der Entwickler kann den Zugang des Nutzers zur App jederzeit und ohne Vorankündigung sperren oder beenden, wenn ein Verstoß gegen diese Nutzungsbedingungen festgestellt wird. Der Nutzer kann die Nutzung der App jederzeit durch Deinstallation vom Gerät beenden.
+
+---
+
+## 10. Änderungen der Nutzungsbedingungen
+
+Der Entwickler behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen treten mit ihrer Veröffentlichung in Kraft. Die weitere Nutzung der App nach Veröffentlichung neuer Nutzungsbedingungen gilt als Zustimmung zu den Änderungen.
+
+---
+
+## 11. Anwendbares Recht und Gerichtsstand
+
+Diese Nutzungsbedingungen unterliegen dem Recht der **Föderativen Republik Brasilien**. Für internationale Nutzer können Streitigkeiten, die nicht gütlich beigelegt werden können, auch dem zwingenden Verbraucherschutzrecht des Wohnsitzlandes des Nutzers unterliegen, soweit das anwendbare Recht dies vorschreibt.
+
+---
+
+## 12. Kontakt
+
+Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: **[Support-E-Mail-Adresse]**
