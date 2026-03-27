@@ -34,7 +34,9 @@ export async function getStaticPaths() {
     .filter((entry) => {
       const parts = entry.id.split('/');
       // Filtra: app = kontrolsub, lang deve ser um idioma suportado
-      return parts[0] === 'kontrolsub' && parts[2] && parts[2] in languages;
+      // Remove .md do ID case exista (comum em glob loader do Astro v6)
+      const langId = parts[2]?.replace(/\.md$/, '');
+      return parts[0] === 'kontrolsub' && langId && langId in languages;
     })
     .map((entry) => {
       const parts = entry.id.split('/'); // ['kontrolsub', 'privacy-policy', 'en']
