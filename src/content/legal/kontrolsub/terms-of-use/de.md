@@ -74,6 +74,8 @@ Les achats sont entièrement traités par les boutiques d'applications respectiv
 
 Tout le contenu de l'Application — incluant le code source, le design, les logos, les textes, les icônes et les fonctionnalités — est la propriété exclusive du développeur ou lui est concédé sous licence. Toute reproduction, distribution ou modification sans autorisation préalable et écrite est interdite.
 
+Tous les logos et marques de tiers affichés dans Kontrol sont la propriété de leurs détenteurs respectifs. Ces logos sont utilisés uniquement à des fins informatives, pour identifier les services auxquels se rapportent les abonnements de l'utilisateur. Kontrol n'est affilié, approuvé ni sponsorisé par aucun des services répertoriés.
+
 ---
 
 ## 7. Exclusion de Garanties

@@ -74,6 +74,8 @@ Las compras son procesadas en su totalidad por las respectivas tiendas de aplica
 
 Todo el contenido de la Aplicación —incluyendo código fuente, diseño, logotipos, textos, iconos y funcionalidades— es propiedad exclusiva del desarrollador o licenciado a él. Queda prohibida cualquier reproducción, distribución o modificación sin autorización previa y por escrito.
 
+Todos los logotipos y marcas de terceros que se muestran en Kontrol son propiedad de sus respectivos dueños. Estos logotipos se utilizan únicamente con fines informativos, para identificar los servicios a los que se refieren las suscripciones del usuario. Kontrol no está afiliado, respaldado ni patrocinado por ninguno de los servicios listados.
+
 ---
 
 ## 7. Exclusión de Responsabilidad

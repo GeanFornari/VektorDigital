@@ -74,6 +74,8 @@ Purchases are processed entirely by the respective app stores. The Kontrol devel
 
 All content in the App — including source code, design, logos, texts, icons, and features — is the exclusive property of the developer or licensed to them. Any reproduction, distribution, or modification without prior written authorization is prohibited.
 
+All third-party logos and trademarks displayed in Kontrol are the property of their respective owners. These logos are used solely for informational purposes, to identify the services to which the user's subscriptions relate. Kontrol is not affiliated with, endorsed by, or sponsored by any of the listed services.
+
 ---
 
 ## 7. Disclaimer of Warranties

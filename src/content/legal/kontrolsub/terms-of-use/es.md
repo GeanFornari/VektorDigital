@@ -74,6 +74,8 @@ Käufe werden vollständig von den jeweiligen App-Stores abgewickelt. Der Entwic
 
 Alle Inhalte der App — einschließlich Quellcode, Design, Logos, Texte, Symbole und Funktionen — sind ausschließliches Eigentum des Entwicklers oder ihm lizenziert. Jegliche Vervielfältigung, Verbreitung oder Modifikation ohne vorherige schriftliche Genehmigung ist untersagt.
 
+Alle in Kontrol angezeigten Drittanbieter-Logos und Marken sind Eigentum ihrer jeweiligen Inhaber. Diese Logos werden ausschließlich zu Informationszwecken verwendet, um die Dienste zu identifizieren, auf die sich die Abonnements des Nutzers beziehen. Kontrol ist weder mit den aufgeführten Diensten verbunden, noch wird es von diesen unterstützt oder gesponsert.
+
 ---
 
 ## 7. Haftungsausschluss
