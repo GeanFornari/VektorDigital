@@ -18,11 +18,11 @@ import { languages } from '../../../../i18n/ui';
 
 // Títulos das páginas por idioma e slug de documento
 const PAGE_TITLES: Record<string, Record<string, string>> = {
-  pt: { 'privacy-policy': 'Política de Privacidade', 'terms-of-use': 'Termos de Uso' },
-  en: { 'privacy-policy': 'Privacy Policy', 'terms-of-use': 'Terms of Use' },
-  es: { 'privacy-policy': 'Política de Privacidad', 'terms-of-use': 'Términos de Uso' },
-  fr: { 'privacy-policy': 'Politique de Confidentialité', 'terms-of-use': "Conditions d'Utilisation" },
-  de: { 'privacy-policy': 'Datenschutzrichtlinie', 'terms-of-use': 'Nutzungsbedingungen' },
+  pt: { 'privacy-policy': 'Política de Privacidade', 'terms-of-use': 'Termos de Uso', 'delete-account': 'Exclusão de Conta' },
+  en: { 'privacy-policy': 'Privacy Policy', 'terms-of-use': 'Terms of Use', 'delete-account': 'Account Deletion' },
+  es: { 'privacy-policy': 'Política de Privacidad', 'terms-of-use': 'Términos de Uso', 'delete-account': 'Eliminación de Cuenta' },
+  fr: { 'privacy-policy': 'Politique de Confidentialité', 'terms-of-use': "Conditions d'Utilisation", 'delete-account': 'Suppression de Compte' },
+  de: { 'privacy-policy': 'Datenschutzrichtlinie', 'terms-of-use': 'Nutzungsbedingungen', 'delete-account': 'Kontolöschung' },
 };
 
 export async function getStaticPaths() {

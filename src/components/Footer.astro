@@ -64,9 +64,10 @@ const t = useTranslations(lang);
                 <span class="text-sm font-bold tracking-tight">Vektor Digital</span>
             </div>
             <p class="text-sm text-text-secondary">{t('footer.rights')}</p>
-            <div class="flex gap-6">
-                <a href={`/${lang}/kontrolsub/legal/terms-of-use`} class="text-sm text-text-secondary hover:text-accent font-medium">{t('footer.terms')}</a>
-                <a href={`/${lang}/kontrolsub/legal/privacy-policy`} class="text-sm text-text-secondary hover:text-accent font-medium">{t('footer.privacy')}</a>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href={`/${lang}/kontrolsub/legal/terms-of-use`} class="text-sm text-text-secondary hover:text-accent font-medium transition-colors">{t('footer.terms')}</a>
+                <a href={`/${lang}/kontrolsub/legal/privacy-policy`} class="text-sm text-text-secondary hover:text-accent font-medium transition-colors">{t('footer.privacy')}</a>
+                <a href={`/${lang}/kontrolsub/legal/delete-account`} class="text-sm text-text-secondary hover:text-accent font-medium transition-colors">{t('footer.delete_account')}</a>
             </div>
         </div>
     </div>
