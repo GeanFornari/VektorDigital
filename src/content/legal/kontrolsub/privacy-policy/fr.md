@@ -3,7 +3,7 @@
 **Version :** 1.0  
 **Dernière mise à jour :** 19 mars 2026  
 **Développeur :** Geancarlo Fornari  
-**Contact :** [EMAIL_ADDRESS]
+**Contact :** contato@vektordigital.com.br
 
 ---
 
@@ -115,7 +115,7 @@ Conformément au RGPD et à la Loi Informatique et Libertés, l'utilisateur disp
 | **Opposition** | S'opposer au traitement des données effectué sans votre consentement. |
 | **Limitation** | Demander la limitation du traitement dans certaines circonstances. |
 
-Pour exercer l'un de ces droits, contactez-nous à : **[adresse e-mail de support]**
+Pour exercer l'un de ces droits, contactez-nous à : **contato@vektordigital.com.br**
 
 Vous disposez également du droit de déposer une plainte auprès de la **CNIL** (Commission Nationale de l'Informatique et des Libertés) : [cnil.fr](https://www.cnil.fr).
 
@@ -143,7 +143,7 @@ Le développeur se réserve le droit de mettre à jour cette Politique à tout m
 
 Pour toute question, demande ou réclamation relative à la confidentialité et à la protection des données, veuillez nous contacter :
 
-**E-mail :** [adresse e-mail de support]  
+**E-mail :** contato@vektordigital.com.br  
 **Développeur Responsable :** Gean Fornari
 
 Ce service ne dispose pas d'un Délégué à la Protection des Données (DPO) formellement désigné pour cette version. Si nécessaire, le développeur peut être contacté directement à l'adresse e-mail ci-dessus.

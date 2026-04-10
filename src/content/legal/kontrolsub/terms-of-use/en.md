@@ -3,7 +3,7 @@
 **Version:** 1.0  
 **Last updated:** March 19, 2026  
 **Developer:** Geancarlo Fornari  
-**Contact:** [EMAIL_ADDRESS]
+**Contact:** contato@vektordigital.com.br
 
 ---
 
@@ -120,4 +120,4 @@ These Terms are governed by the laws of the **Federative Republic of Brazil**. F
 
 ## 12. Contact
 
-For questions about these Terms, please contact us at: **[support email address]**
+For questions about these Terms, please contact us at: **contato@vektordigital.com.br**

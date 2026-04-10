@@ -3,7 +3,7 @@
 **Versión:** 1.0  
 **Última actualización:** 19 de marzo de 2026  
 **Desarrollador:** Geancarlo Fornari  
-**Contacto:** [EMAIL_ADDRESS]
+**Contacto:** contato@vektordigital.com.br
 
 ---
 
@@ -120,4 +120,4 @@ Estos Términos se rigen por las leyes de la **República Federativa de Brasil**
 
 ## 12. Contacto
 
-Para preguntas sobre estos Términos, contáctenos en: **[dirección de correo de soporte]**
+Para preguntas sobre estos Términos, contáctenos en: **contato@vektordigital.com.br**

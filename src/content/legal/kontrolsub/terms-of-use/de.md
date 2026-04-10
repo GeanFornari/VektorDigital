@@ -3,7 +3,7 @@
 **Version:** 1.0  
 **Letzte Aktualisierung:** 19. März 2026  
 **Entwickler:** Geancarlo Fornari  
-**Kontakt:** [EMAIL_ADDRESS]
+**Kontakt:** contato@vektordigital.com.br
 
 ---
 
@@ -120,4 +120,4 @@ Diese Nutzungsbedingungen unterliegen dem Recht der **Föderativen Republik Bras
 
 ## 12. Kontakt
 
-Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: **[Support-E-Mail-Adresse]**
+Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: **contato@vektordigital.com.br**

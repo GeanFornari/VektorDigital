@@ -3,8 +3,7 @@
 **Version:** 1.0  
 **Last updated:** March 19, 2026  
 **Developer:** Geancarlo Fornari  
-**Contact:** [EMAIL_ADDRESS]
-
+**Contact:** contato@vektordigital.com.br
 ---
 
 ## 1. Introduction
@@ -115,7 +114,7 @@ In accordance with the GDPR, users have the following rights:
 | **Objection** | Object to the processing of data carried out without your consent. |
 | **Restriction** | Request restriction of processing in certain circumstances. |
 
-To exercise any of these rights, please contact us at: **[support email address]**
+To exercise any of these rights, please contact us at: **contato@vektordigital.com.br**
 
 ---
 
@@ -141,7 +140,7 @@ The developer reserves the right to update this Policy at any time. Notification
 
 For questions, requests, or complaints related to privacy and data protection, please contact:
 
-**Email:** [support email address]  
+**Email:** contato@vektordigital.com.br  
 **Responsible Developer:** Gean Fornari
 
 This service does not have a formally designated Data Protection Officer (DPO) for this version. If required, the developer may be contacted directly at the email address above.

@@ -3,7 +3,7 @@
 **Versión:** 1.0  
 **Última actualización:** 19 de marzo de 2026  
 **Desarrollador:** Geancarlo Fornari  
-**Contacto:** [EMAIL_ADDRESS]
+**Contacto:** contato@vektordigital.com.br
 
 ---
 
@@ -115,7 +115,7 @@ De conformidad con el RGPD y la LOPDGDD, el usuario tiene los siguientes derecho
 | **Oposición** | Oponerse al tratamiento de datos realizado sin su consentimiento. |
 | **Limitación** | Solicitar la restricción del tratamiento en determinadas circunstancias. |
 
-Para ejercer cualquiera de estos derechos, póngase en contacto en: **[dirección de correo de soporte]**
+Para ejercer cualquiera de estos derechos, póngase en contacto en: **contato@vektordigital.com.br**
 
 ---
 
@@ -141,7 +141,7 @@ El desarrollador se reserva el derecho de actualizar esta Política en cualquier
 
 Para preguntas, solicitudes o reclamaciones relacionadas con la privacidad y la protección de datos, contáctenos en:
 
-**Correo electrónico:** [dirección de correo de soporte]  
+**Correo electrónico:** contato@vektordigital.com.br  
 **Desarrollador Responsable:** Gean Fornari
 
 Este servicio no cuenta con un Delegado de Protección de Datos (DPD) formalmente designado para esta versión. Si fuere necesario, el desarrollador podrá ser contactado directamente en el correo electrónico indicado.

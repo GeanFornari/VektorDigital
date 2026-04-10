@@ -3,7 +3,7 @@
 **Version :** 1.0  
 **Dernière mise à jour :** 19 mars 2026  
 **Développeur :** Geancarlo Fornari  
-**Contact :** [EMAIL_ADDRESS]
+**Contact :** contato@vektordigital.com.br
 
 ---
 
@@ -120,4 +120,4 @@ Les présentes Conditions sont régies par les lois de la **République Fédéra
 
 ## 12. Contact
 
-Pour toute question concernant ces Conditions, veuillez nous contacter à : **[adresse e-mail de support]**
+Pour toute question concernant ces Conditions, veuillez nous contacter à : **contato@vektordigital.com.br**

@@ -3,7 +3,7 @@
 **Versão:** 1.0  
 **Última atualização:** 19 de março de 2026  
 **Desenvolvedor:** Geancarlo Fornari  
-**Contato:** [EMAIL_ADDRESS]
+**Contato:** contato@vektordigital.com.br
 
 ---
 
@@ -120,4 +120,4 @@ Estes Termos são regidos pelas leis da **República Federativa do Brasil**. Fic
 
 ## 12. Contato
 
-Em caso de dúvidas sobre estes Termos, entre em contato pelo e-mail: **[inserir e-mail de suporte]**
+Em caso de dúvidas sobre estes Termos, entre em contato pelo e-mail: **contato@vektordigital.com.br**

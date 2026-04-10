@@ -3,7 +3,7 @@
 **Version:** 1.0  
 **Letzte Aktualisierung:** 19. März 2026  
 **Entwickler:** Geancarlo Fornari  
-**Kontakt:** [EMAIL_ADDRESS]
+**Kontakt:** contato@vektordigital.com.br
 
 ---
 
@@ -115,7 +115,7 @@ Gemäß der DSGVO und dem BDSG hat der Nutzer folgende Rechte:
 | **Widerspruch** | Der Verarbeitung von Daten ohne Ihre Einwilligung widersprechen. |
 | **Einschränkung** | Einschränkung der Verarbeitung unter bestimmten Umständen beantragen. |
 
-Zur Ausübung dieser Rechte wenden Sie sich bitte an: **[Support-E-Mail-Adresse]**
+Zur Ausübung dieser Rechte wenden Sie sich bitte an: **contato@vektordigital.com.br**
 
 Sie haben außerdem das Recht, eine Beschwerde bei der zuständigen **Datenschutzaufsichtsbehörde** einzureichen (z. B. dem Bundesbeauftragten für den Datenschutz und die Informationsfreiheit — BfDI).
 
@@ -143,7 +143,7 @@ Der Entwickler behält sich das Recht vor, diese Richtlinie jederzeit zu aktuali
 
 Bei Fragen, Anfragen oder Beschwerden im Zusammenhang mit dem Datenschutz wenden Sie sich bitte an:
 
-**E-Mail:** [Support-E-Mail-Adresse]  
+**E-Mail:** contato@vektordigital.com.br 
 **Verantwortlicher Entwickler:** Gean Fornari
 
 Für diese Version ist kein Datenschutzbeauftragter (DSB) formell benannt. Bei Bedarf kann der Entwickler direkt unter der oben genannten E-Mail-Adresse kontaktiert werden.

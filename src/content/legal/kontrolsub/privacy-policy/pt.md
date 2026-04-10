@@ -3,7 +3,7 @@
 **Versão:** 1.0  
 **Última atualização:** 19 de março de 2026  
 **Desenvolvedor:** Geancarlo Fornari  
-**Contato:** [EMAIL_ADDRESS]
+**Contato:** contato@vektordigital.com.br
 
 ---
 
@@ -114,7 +114,7 @@ Em conformidade com a LGPD, o usuário possui os seguintes direitos:
 | **Revogação do consentimento** | Revogar o consentimento ao tratamento dos dados a qualquer momento. |
 | **Oposição** | Opor-se ao tratamento de dados realizado sem o seu consentimento. |
 
-Para exercer qualquer um desses direitos, entre em contato pelo e-mail: **[inserir e-mail de suporte]**
+Para exercer qualquer um desses direitos, entre em contato pelo e-mail: **contato@vektordigital.com.br**
 
 ---
 
@@ -140,7 +140,7 @@ O desenvolvedor se reserva o direito de atualizar esta Política a qualquer mome
 
 Em caso de dúvidas, solicitações ou reclamações relacionadas à privacidade e proteção de dados, entre em contato:
 
-**E-mail:** [inserir e-mail de suporte]  
+**E-mail:** contato@vektordigital.com.br
 **Desenvolvedor Responsável:** Gean Fornari
 
 Este serviço não possui Encarregado de Dados (DPO) formalmente designado para esta versão. Caso necessário, o desenvolvedor poderá ser contactado diretamente pelo e-mail acima.
