@@ -1,15 +1,15 @@
-# Politique de Confidentialité — Kontrol
+# Politique de Confidentialité — KontrolSub
 
 **Version :** 1.0  
-**Dernière mise à jour :** 19 mars 2026  
-**Développeur :** Geancarlo Fornari  
+**Dernière mise à jour :** 11 avril 2026  
+**Développeur :** Vektor Digital  
 **Contact :** contato@vektordigital.com.br
 
 ---
 
 ## 1. Introduction
 
-La confidentialité de nos utilisateurs est une priorité. Cette Politique de Confidentialité décrit, en toute transparence, les données que l'application **Kontrol** collecte, la manière dont elle les utilise, avec qui elle les partage et comment vous pouvez exercer vos droits.
+La confidentialité de nos utilisateurs est une priorité. Cette Politique de Confidentialité décrit, en toute transparence, les données que l'application **KontrolSub** collecte, la manière dont elle les utilise, avec qui elle les partage et comment vous pouvez exercer vos droits.
 
 Cette politique est conforme au **Règlement Général sur la Protection des Données (RGPD — Règlement UE 2016/679)** et, dans la mesure applicable, à la **Loi Informatique et Libertés** (France) et aux autres législations applicables.
 
@@ -19,7 +19,7 @@ Cette politique est conforme au **Règlement Général sur la Protection des Don
 
 ### 2.1 Données d'Identification et d'Authentification
 
-Lors de la création de votre compte dans Kontrol, les données suivantes sont fournies par les services d'authentification utilisés :
+Lors de la création de votre compte dans KontrolSub, les données suivantes sont fournies par les services d'authentification utilisés :
 
 | Donnée | Source | Condition |
 |---|---|---|
@@ -27,7 +27,7 @@ Lors de la création de votre compte dans Kontrol, les données suivantes sont f
 | Adresse e-mail | Google ou Apple | Uniquement si l'utilisateur lie un compte |
 | Nom complet | Google ou Apple | Uniquement si l'utilisateur lie un compte |
 
-> **Remarque concernant Apple :** Sign In With Apple permet à l'utilisateur de masquer son adresse e-mail réelle en fournissant une adresse e-mail relais générée par Apple. Kontrol accepte et respecte cette préférence.
+> **Remarque concernant Apple :** Sign In With Apple permet à l'utilisateur de masquer son adresse e-mail réelle en fournissant une adresse e-mail relais générée par Apple. KontrolSub accepte et respecte cette préférence.
 
 ### 2.2 Données Financières Saisies par l'Utilisateur
 
@@ -46,7 +46,7 @@ Lors de l'enregistrement d'abonnements, les données suivantes sont stockées da
 
 ### 2.3 Historique des Paiements
 
-Kontrol génère et stocke automatiquement un **historique mensuel des dépenses** dans Firestore, calculé sur la base des abonnements enregistrés. Ces données permettent d'afficher des rapports de dépenses à l'utilisateur.
+KontrolSub génère et stocke automatiquement un **historique mensuel des dépenses** dans Firestore, calculé sur la base des abonnements enregistrés. Ces données permettent d'afficher des rapports de dépenses à l'utilisateur.
 
 ### 2.4 Préférences Locales
 
@@ -54,7 +54,7 @@ Les données de préférences de l'utilisateur (telles que la langue et l'état 
 
 ### 2.5 Données Collectées Automatiquement par des Tiers
 
-Kontrol utilise des services tiers susceptibles de collecter des données de manière indépendante, conformément à leurs propres politiques :
+KontrolSub utilise des services tiers susceptibles de collecter des données de manière indépendante, conformément à leurs propres politiques :
 
 | Service | Finalité | Politique de Confidentialité |
 |---|---|---|
@@ -75,7 +75,7 @@ Les données collectées sont utilisées exclusivement pour :
 4. **Rapports :** Générer des graphiques et un historique mensuel des dépenses.
 5. **Gestion des plans :** Traiter et vérifier les abonnements premium au sein de l'Application via RevenueCat.
 
-**Kontrol n'utilise pas vos données à des fins publicitaires, ne les vend pas et ne les partage pas avec des tiers au-delà des services listés à la Section 2.5.**
+**KontrolSub n'utilise pas vos données à des fins publicitaires, ne les vend pas et ne les partage pas avec des tiers au-delà des services listés à la Section 2.5.**
 
 ---
 
@@ -91,7 +91,7 @@ Les données synchronisées sont stockées dans l'infrastructure **Google Fireba
 
 Les données sont organisées de façon à ce que **chaque utilisateur accède exclusivement à ses propres données**, garanties par les Règles de Sécurité Firestore liées à l'UID d'authentification.
 
-Le développeur de Kontrol déploie des efforts raisonnables pour protéger vos informations, mais aucun système de sécurité n'est infaillible. Nous recommandons de maintenir le système d'exploitation et l'Application toujours à jour.
+Vektor Digital déploie des efforts raisonnables pour protéger vos informations, mais aucun système de sécurité n'est infaillible. Nous recommandons de maintenir le système d'exploitation et l'Application toujours à jour.
 
 ---
 
@@ -123,7 +123,7 @@ Vous disposez également du droit de déposer une plainte auprès de la **CNIL**
 
 ## 8. Données des Mineurs
 
-Kontrol **n'est pas destiné aux mineurs de moins de 15 ans** (conformément à la réglementation française ; ou 13 ans dans d'autres juridictions). Nous ne collectons pas intentionnellement de données personnelles d'enfants. Si nous apprenons que nous avons collecté des données d'un mineur sans le consentement de ses tuteurs, nous prendrons les mesures nécessaires pour supprimer ces informations immédiatement.
+KontrolSub **n'est pas destiné aux mineurs de moins de 15 ans** (conformément à la réglementation française ; ou 13 ans dans d'autres juridictions). Nous ne collectons pas intentionnellement de données personnelles d'enfants. Si nous apprenons que nous avons collecté des données d'un mineur sans le consentement de ses tuteurs, nous prendrons les mesures nécessaires pour supprimer ces informations immédiatement.
 
 ---
 
@@ -144,6 +144,6 @@ Le développeur se réserve le droit de mettre à jour cette Politique à tout m
 Pour toute question, demande ou réclamation relative à la confidentialité et à la protection des données, veuillez nous contacter :
 
 **E-mail :** contato@vektordigital.com.br  
-**Développeur Responsable :** Gean Fornari
+**Développeur Responsable :** Vektor Digital
 
-Ce service ne dispose pas d'un Délégué à la Protection des Données (DPO) formellement désigné pour cette version. Si nécessaire, le développeur peut être contacté directement à l'adresse e-mail ci-dessus.
+Ce service ne dispose pas d'un Délégué à la Protection des Données (DPO) formellement désigné pour cette version. Si nécessaire, Vektor Digital peut être contacté directement à l'adresse e-mail ci-dessus.

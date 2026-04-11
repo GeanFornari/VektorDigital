@@ -1,15 +1,15 @@
-# Datenschutzrichtlinie — Kontrol
+# Datenschutzrichtlinie — KontrolSub
 
 **Version:** 1.0  
-**Letzte Aktualisierung:** 19. März 2026  
-**Entwickler:** Geancarlo Fornari  
+**Letzte Aktualisierung:** 11. April 2026  
+**Entwickler:** Vektor Digital  
 **Kontakt:** contato@vektordigital.com.br
 
 ---
 
 ## 1. Einleitung
 
-Der Schutz der Privatsphäre unserer Nutzer hat höchste Priorität. Diese Datenschutzrichtlinie beschreibt transparent, welche Daten die **Kontrol**-Anwendung erfasst, wie sie verwendet werden, mit wem sie geteilt werden und wie Sie Ihre Rechte ausüben können.
+Der Schutz der Privatsphäre unserer Nutzer hat höchste Priorität. Diese Datenschutzrichtlinie beschreibt transparent, welche Daten die **KontrolSub**-Anwendung erfasst, wie sie verwendet werden, mit wem sie geteilt werden und wie Sie Ihre Rechte ausüben können.
 
 Diese Richtlinie entspricht der **Datenschutz-Grundverordnung (DSGVO — EU-Verordnung 2016/679)** und, soweit anwendbar, dem **Bundesdatenschutzgesetz (BDSG)** sowie weiteren anwendbaren Datenschutzgesetzen.
 
@@ -19,7 +19,7 @@ Diese Richtlinie entspricht der **Datenschutz-Grundverordnung (DSGVO — EU-Vero
 
 ### 2.1 Identifikations- und Authentifizierungsdaten
 
-Bei der Erstellung Ihres Kontos in Kontrol werden folgende Daten von den verwendeten Authentifizierungsdiensten bereitgestellt:
+Bei der Erstellung Ihres Kontos in KontrolSub werden folgende Daten von den verwendeten Authentifizierungsdiensten bereitgestellt:
 
 | Datum | Quelle | Bedingung |
 |---|---|---|
@@ -27,7 +27,7 @@ Bei der Erstellung Ihres Kontos in Kontrol werden folgende Daten von den verwend
 | E-Mail-Adresse | Google oder Apple | Nur wenn der Nutzer ein Konto verknüpft |
 | Vollständiger Name | Google oder Apple | Nur wenn der Nutzer ein Konto verknüpft |
 
-> **Hinweis zu Apple:** Sign In With Apple ermöglicht es Nutzern, ihre echte E-Mail-Adresse zu verbergen und stattdessen eine von Apple generierte Relay-Adresse zu verwenden. Kontrol akzeptiert und respektiert diese Einstellung.
+> **Hinweis zu Apple:** Sign In With Apple ermöglicht es Nutzern, ihre echte E-Mail-Adresse zu verbergen und stattdessen eine von Apple generierte Relay-Adresse zu verwenden. KontrolSub akzeptiert und respektiert diese Einstellung.
 
 ### 2.2 Vom Nutzer eingegebene Finanzdaten
 
@@ -46,7 +46,7 @@ Bei der Registrierung von Abonnements werden folgende Daten in Cloud Firestore g
 
 ### 2.3 Zahlungshistorie
 
-Kontrol erstellt und speichert automatisch eine **monatliche Ausgabenhistorie** in Firestore, berechnet auf Basis der registrierten Abonnements. Diese Daten werden verwendet, um dem Nutzer Ausgabenberichte anzuzeigen.
+KontrolSub erstellt und speichert automatisch eine **monatliche Ausgabenhistorie** in Firestore, berechnet auf Basis der registrierten Abonnements. Diese Daten werden verwendet, um dem Nutzer Ausgabenberichte anzuzeigen.
 
 ### 2.4 Lokale Einstellungen
 
@@ -54,7 +54,7 @@ Nutzerpräferenzdaten (wie Sprache und Status der Erstnutzung) werden **lokal au
 
 ### 2.5 Automatisch durch Dritte erfasste Daten
 
-Kontrol verwendet Drittanbieterdienste, die möglicherweise unabhängig Daten gemäß ihren eigenen Richtlinien erfassen:
+KontrolSub verwendet Drittanbieterdienste, die möglicherweise unabhängig Daten gemäß ihren eigenen Richtlinien erfassen:
 
 | Dienst | Zweck | Datenschutzrichtlinie |
 |---|---|---|
@@ -75,7 +75,7 @@ Die erhobenen Daten werden ausschließlich verwendet für:
 4. **Berichte:** Erstellen von Diagrammen und monatlicher Ausgabenhistorie.
 5. **Planverwaltung:** Verarbeiten und Verifizieren von Premium-Abonnements innerhalb der App über RevenueCat.
 
-**Kontrol verwendet Ihre Daten nicht für Werbezwecke, verkauft sie nicht und gibt sie nicht an Dritte weiter, außer an die in Abschnitt 2.5 aufgeführten Dienste.**
+**KontrolSub verwendet Ihre Daten nicht für Werbezwecke, verkauft sie nicht und gibt sie nicht an Dritte weiter, außer an die in Abschnitt 2.5 aufgeführten Dienste.**
 
 ---
 
@@ -91,7 +91,7 @@ Synchronisierte Daten werden in der Infrastruktur von **Google Firebase (Cloud F
 
 Die Daten sind so organisiert, dass **jeder Nutzer ausschließlich auf seine eigenen Daten zugreift**, sichergestellt durch Firestore-Sicherheitsregeln, die mit der Authentifizierungs-UID verknüpft sind.
 
-Der Entwickler von Kontrol unternimmt angemessene Anstrengungen zum Schutz Ihrer Daten, aber kein Sicherheitssystem ist unfehlbar. Wir empfehlen, das Betriebssystem und die Anwendung stets aktuell zu halten.
+Vektor Digital unternimmt angemessene Anstrengungen zum Schutz Ihrer Daten, aber kein Sicherheitssystem ist unfehlbar. Wir empfehlen, das Betriebssystem und die Anwendung stets aktuell zu halten.
 
 ---
 
@@ -123,7 +123,7 @@ Sie haben außerdem das Recht, eine Beschwerde bei der zuständigen **Datenschut
 
 ## 8. Daten Minderjähriger
 
-Kontrol **richtet sich nicht an Kinder unter 16 Jahren** (gemäß der deutschen DSGVO-Umsetzung; oder 13 Jahre in anderen Rechtsordnungen). Wir erfassen nicht absichtlich personenbezogene Daten von Kindern. Sollten wir erfahren, dass wir Daten eines Minderjährigen ohne Einwilligung der Erziehungsberechtigten erfasst haben, werden wir die erforderlichen Maßnahmen ergreifen, um diese Daten unverzüglich zu löschen.
+KontrolSub **richtet sich nicht an Kinder unter 16 Jahren** (gemäß der deutschen DSGVO-Umsetzung; oder 13 Jahre in anderen Rechtsordnungen). Wir erfassen nicht absichtlich personenbezogene Daten von Kindern. Sollten wir erfahren, dass wir Daten eines Minderjährigen ohne Einwilligung der Erziehungsberechtigten erfasst haben, werden wir die erforderlichen Maßnahmen ergreifen, um diese Daten unverzüglich zu löschen.
 
 ---
 
@@ -144,6 +144,6 @@ Der Entwickler behält sich das Recht vor, diese Richtlinie jederzeit zu aktuali
 Bei Fragen, Anfragen oder Beschwerden im Zusammenhang mit dem Datenschutz wenden Sie sich bitte an:
 
 **E-Mail:** contato@vektordigital.com.br 
-**Verantwortlicher Entwickler:** Gean Fornari
+**Verantwortlicher Entwickler:** Vektor Digital
 
-Für diese Version ist kein Datenschutzbeauftragter (DSB) formell benannt. Bei Bedarf kann der Entwickler direkt unter der oben genannten E-Mail-Adresse kontaktiert werden.
+Für diese Version ist kein Datenschutzbeauftragter (DSB) formell benannt. Bei Bedarf kann Vektor Digital direkt unter der oben genannten E-Mail-Adresse kontaktiert werden.

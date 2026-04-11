@@ -1,21 +1,21 @@
-# Nutzungsbedingungen — Kontrol
+# Nutzungsbedingungen — KontrolSub
 
 **Version:** 1.0  
-**Letzte Aktualisierung:** 19. März 2026  
-**Entwickler:** Geancarlo Fornari  
+**Letzte Aktualisierung:** 11. April 2026  
+**Entwickler:** Vektor Digital  
 **Kontakt:** contato@vektordigital.com.br
 
 ---
 
 ## 1. Zustimmung zu den Bedingungen
 
-Durch das Herunterladen, Installieren oder Verwenden der Anwendung **Kontrol** („App") erklären Sie sich ausdrücklich und unwiderruflich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieses Dokuments nicht einverstanden sind, sind Sie nicht berechtigt, die App zu verwenden.
+Durch das Herunterladen, Installieren oder Verwenden der Anwendung **KontrolSub** („App") erklären Sie sich ausdrücklich und unwiderruflich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieses Dokuments nicht einverstanden sind, sind Sie nicht berechtigt, die App zu verwenden.
 
 ---
 
 ## 2. Beschreibung des Dienstes
 
-**Kontrol** ist eine persönliche App zur Verwaltung wiederkehrender Abonnements. Sie ermöglicht dem Nutzer:
+**KontrolSub** ist eine persönliche App zur Verwaltung wiederkehrender Abonnements. Sie ermöglicht dem Nutzer:
 
 - Digitale Service-Abonnements zu registrieren, zu bearbeiten und zu löschen.
 - Konsolidierte monatliche und jährliche Ausgaben einzusehen.
@@ -23,7 +23,7 @@ Durch das Herunterladen, Installieren oder Verwenden der Anwendung **Kontrol** (
 - Lokale Erinnerungs- und Fälligkeitsbenachrichtigungen zu erhalten.
 - Auf einen Finanzkalender zukünftiger Zahlungen zuzugreifen.
 
-Kontrol erhebt **keine** Gebühren, hat **keinen** Zugriff auf Bankkonten und führt **keine** Finanztransaktionen im Namen des Nutzers aus. Alle Informationen werden manuell vom Nutzer selbst eingegeben.
+KontrolSub erhebt **keine** Gebühren, hat **keinen** Zugriff auf Bankkonten und führt **keine** Finanztransaktionen im Namen des Nutzers aus. Alle Informationen werden manuell vom Nutzer selbst eingegeben.
 
 ---
 
@@ -31,7 +31,7 @@ Kontrol erhebt **keine** Gebühren, hat **keinen** Zugriff auf Bankkonten und f�
 
 ### 3.1 Anonyme Registrierung
 
-Kontrol verfolgt den Ansatz der **Lazy Registration** (aufgeschobene Registrierung): Beim ersten Öffnen der App wird automatisch ein anonymes Konto über Firebase Authentication erstellt, ohne dass eine E-Mail-Adresse oder ein Passwort erforderlich ist. Dies ermöglicht eine sofortige Nutzung der App.
+KontrolSub verfolgt den Ansatz der **Lazy Registration** (aufgeschobene Registrierung): Beim ersten Öffnen der App wird automatisch ein anonymes Konto über Firebase Authentication erstellt, ohne dass eine E-Mail-Adresse oder ein Passwort erforderlich ist. Dies ermöglicht eine sofortige Nutzung der App.
 
 ### 3.2 Kontoverknüpfung
 
@@ -44,7 +44,7 @@ Die Verknüpfung ist nicht obligatorisch, wird jedoch empfohlen, um sicherzustel
 
 ### 3.3 Kontoverantwortung
 
-Sie sind für die Sicherheit Ihres Geräts und der Anmeldedaten Ihrer verknüpften Google- oder Apple-Konten verantwortlich. Der Entwickler übernimmt keine Verantwortung für unbefugten Zugriff, der auf eine Sicherheitslücke auf Seiten des Nutzers zurückzuführen ist.
+Sie sind für die Sicherheit Ihres Geräts und der Anmeldedaten Ihrer verknüpften Google- oder Apple-Konten verantwortlich. Vektor Digital übernimmt keine Verantwortung für unbefugten Zugriff, der auf eine Sicherheitslücke auf Seiten des Nutzers zurückzuführen ist.
 
 ---
 
@@ -61,12 +61,12 @@ Der Nutzer verpflichtet sich, die App ausschließlich für rechtmäßige und per
 
 ## 5. Pläne, Abonnements und In-App-Käufe
 
-Kontrol kann kostenpflichtige Pläne und Premium-Funktionen über **In-App-Käufe** anbieten, die verwaltet werden von:
+KontrolSub kann kostenpflichtige Pläne und Premium-Funktionen über **In-App-Käufe** anbieten, die verwaltet werden von:
 
 - **Apple App Store** (für iOS/iPadOS-Nutzer).
 - **Google Play Store** (für Android-Nutzer).
 
-Käufe werden vollständig von den jeweiligen App-Stores abgewickelt. Der Entwickler von Kontrol speichert keine Kreditkartendaten oder sonstige Zahlungsinformationen. Alle Rückerstattungen müssen direkt bei Apple oder Google entsprechend den Richtlinien der jeweiligen Plattform beantragt werden.
+Käufe werden vollständig von den jeweiligen App-Stores abgewickelt. Vektor Digital speichert keine Kreditkartendaten oder sonstige Zahlungsinformationen. Alle Rückerstattungen müssen direkt bei Apple oder Google entsprechend den Richtlinien der jeweiligen Plattform beantragt werden.
 
 ---
 
@@ -74,7 +74,7 @@ Käufe werden vollständig von den jeweiligen App-Stores abgewickelt. Der Entwic
 
 Alle Inhalte der App — einschließlich Quellcode, Design, Logos, Texte, Symbole und Funktionen — sind ausschließliches Eigentum des Entwicklers oder ihm lizenziert. Jegliche Vervielfältigung, Verbreitung oder Modifikation ohne vorherige schriftliche Genehmigung ist untersagt.
 
-Alle in Kontrol angezeigten Drittanbieter-Logos und Marken sind Eigentum ihrer jeweiligen Inhaber. Diese Logos werden ausschließlich zu Informationszwecken verwendet, um die Dienste zu identifizieren, auf die sich die Abonnements des Nutzers beziehen. Kontrol ist weder mit den aufgeführten Diensten verbunden, noch wird es von diesen unterstützt oder gesponsert.
+Alle in KontrolSub angezeigten Drittanbieter-Logos und Marken sind Eigentum ihrer jeweiligen Inhaber. Diese Logos werden ausschließlich zu Informationszwecken verwendet, um die Dienste zu identifizieren, auf die sich die Abonnements des Nutzers beziehen. KontrolSub ist weder mit den aufgeführten Diensten verbunden, noch wird es von diesen unterstützt oder gesponsert.
 
 ---
 
@@ -82,15 +82,15 @@ Alle in Kontrol angezeigten Drittanbieter-Logos und Marken sind Eigentum ihrer j
 
 ### 7.1 Genauigkeit der Informationen
 
-Kontrol ist ein Hilfsmittel zur persönlichen Finanzkontrolle. **Wir übernehmen keine Garantie** für die Richtigkeit, Vollständigkeit oder Aktualität der vom Nutzer selbst eingegebenen Informationen. Finanzielle Entscheidungen, die auf den Daten der App basieren, liegen in der alleinigen Verantwortung des Nutzers.
+KontrolSub ist ein Hilfsmittel zur persönlichen Finanzkontrolle. **Wir übernehmen keine Garantie** für die Richtigkeit, Vollständigkeit oder Aktualität der vom Nutzer selbst eingegebenen Informationen. Finanzielle Entscheidungen, die auf den Daten der App basieren, liegen in der alleinigen Verantwortung des Nutzers.
 
 ### 7.2 Verfügbarkeit des Dienstes
 
-Die App wird **„wie besehen"** (*as is*) bereitgestellt, ohne Garantie auf ununterbrochene Verfügbarkeit. Der Entwickler behält sich das Recht vor, den Dienst jederzeit mit oder ohne Vorankündigung zu ändern, auszusetzen oder einzustellen.
+Die App wird **„wie besehen"** (*as is*) bereitgestellt, ohne Garantie auf ununterbrochene Verfügbarkeit. Vektor Digital behält sich das Recht vor, den Dienst jederzeit mit oder ohne Vorankündigung zu ändern, auszusetzen oder einzustellen.
 
 ### 7.3 Dienste Dritter
 
-Kontrol integriert Dienste Dritter (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). Der Entwickler übernimmt keine Verantwortung für Ausfälle, Nichtverfügbarkeiten oder Änderungen dieser externen Dienste.
+KontrolSub integriert Dienste Dritter (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). Vektor Digital übernimmt keine Verantwortung für Ausfälle, Nichtverfügbarkeiten oder Änderungen dieser externen Dienste.
 
 ---
 
@@ -102,13 +102,13 @@ Im größtmöglichen gesetzlich zulässigen Umfang haftet der Entwickler nicht f
 
 ## 9. Kündigung
 
-Der Entwickler kann den Zugang des Nutzers zur App jederzeit und ohne Vorankündigung sperren oder beenden, wenn ein Verstoß gegen diese Nutzungsbedingungen festgestellt wird. Der Nutzer kann die Nutzung der App jederzeit durch Deinstallation vom Gerät beenden.
+Vektor Digital kann den Zugang des Nutzers zur App jederzeit und ohne Vorankündigung sperren oder beenden, wenn ein Verstoß gegen diese Nutzungsbedingungen festgestellt wird. Der Nutzer kann die Nutzung der App jederzeit durch Deinstallation vom Gerät beenden.
 
 ---
 
 ## 10. Änderungen der Nutzungsbedingungen
 
-Der Entwickler behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen treten mit ihrer Veröffentlichung in Kraft. Die weitere Nutzung der App nach Veröffentlichung neuer Nutzungsbedingungen gilt als Zustimmung zu den Änderungen.
+Vektor Digital behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen treten mit ihrer Veröffentlichung in Kraft. Die weitere Nutzung der App nach Veröffentlichung neuer Nutzungsbedingungen gilt als Zustimmung zu den Änderungen.
 
 ---
 

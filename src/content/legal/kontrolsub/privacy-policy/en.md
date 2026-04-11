@@ -1,14 +1,14 @@
-# Privacy Policy — Kontrol
+# Privacy Policy — KontrolSub
 
 **Version:** 1.0  
-**Last updated:** March 19, 2026  
-**Developer:** Geancarlo Fornari  
+**Last updated:** April 11, 2026  
+**Developer:** Vektor Digital  
 **Contact:** contato@vektordigital.com.br
 ---
 
 ## 1. Introduction
 
-The privacy of our users is a priority. This Privacy Policy transparently describes what data the **Kontrol** application collects, how it uses it, with whom it shares it, and how you can exercise your rights.
+The privacy of our users is a priority. This Privacy Policy transparently describes what data the **KontrolSub** application collects, how it uses it, with whom it shares it, and how you can exercise your rights.
 
 This policy complies with the **General Data Protection Regulation (GDPR — EU Regulation 2016/679)** and, where applicable, the **California Consumer Privacy Act (CCPA)** and other applicable data protection laws.
 
@@ -18,7 +18,7 @@ This policy complies with the **General Data Protection Regulation (GDPR — EU 
 
 ### 2.1 Identification and Authentication Data
 
-When you create your account in Kontrol, the following data is provided by the authentication services used:
+When you create your account in KontrolSub, the following data is provided by the authentication services used:
 
 | Data | Source | Condition |
 |---|---|---|
@@ -26,7 +26,7 @@ When you create your account in Kontrol, the following data is provided by the a
 | Email address | Google or Apple | Only if the user links an account |
 | Full name | Google or Apple | Only if the user links an account |
 
-> **Note about Apple:** Sign In With Apple allows users to hide their real email by providing an Apple-generated relay address. Kontrol accepts and respects this preference.
+> **Note about Apple:** Sign In With Apple allows users to hide their real email by providing an Apple-generated relay address. KontrolSub accepts and respects this preference.
 
 ### 2.2 Financial Data Entered by the User
 
@@ -45,7 +45,7 @@ When registering subscriptions, the following data is stored in Cloud Firestore,
 
 ### 2.3 Payment History
 
-Kontrol automatically generates and stores a **monthly expense history** in Firestore, calculated based on registered subscriptions. This data is used to display spending reports to the user.
+KontrolSub automatically generates and stores a **monthly expense history** in Firestore, calculated based on registered subscriptions. This data is used to display spending reports to the user.
 
 ### 2.4 Local Preferences
 
@@ -53,7 +53,7 @@ User preference data (such as language and first-time usage state) is stored **l
 
 ### 2.5 Data Automatically Collected by Third Parties
 
-Kontrol uses third-party services that may independently collect data according to their own policies:
+KontrolSub uses third-party services that may independently collect data according to their own policies:
 
 | Service | Purpose | Privacy Policy |
 |---|---|---|
@@ -74,7 +74,7 @@ Collected data is used exclusively for:
 4. **Reports:** Generating charts and monthly expense history.
 5. **Plan management:** Processing and verifying premium subscriptions within the App via RevenueCat.
 
-**Kontrol does not use your data for advertising purposes, does not sell it, and does not share it with third parties beyond the services listed in Section 2.5.**
+**KontrolSub does not use your data for advertising purposes, does not sell it, and does not share it with third parties beyond the services listed in Section 2.5.**
 
 ---
 
@@ -90,7 +90,7 @@ Synchronized data is stored on **Google Firebase (Cloud Firestore)** infrastruct
 
 Data is organized so that **each user accesses exclusively their own data**, enforced by Firestore Security Rules linked to the authentication UID.
 
-The Kontrol developer employs reasonable efforts to protect your information, but no security system is infallible. We recommend keeping your operating system and the App always up to date.
+Vektor Digital employs reasonable efforts to protect your information, but no security system is infallible. We recommend keeping your operating system and the App always up to date.
 
 ---
 
@@ -120,7 +120,7 @@ To exercise any of these rights, please contact us at: **contato@vektordigital.c
 
 ## 8. Children's Data
 
-Kontrol **is not intended for children under 13 years of age** (or under 16 in EU member states where applicable). We do not intentionally collect personal data from children. If we become aware that we have collected data from a minor without parental consent, we will take the necessary steps to delete such information immediately.
+KontrolSub **is not intended for children under 13 years of age** (or under 16 in EU member states where applicable). We do not intentionally collect personal data from children. If we become aware that we have collected data from a minor without parental consent, we will take the necessary steps to delete such information immediately.
 
 ---
 
@@ -132,7 +132,7 @@ Data is stored on Google (Firebase) servers that may be located outside your cou
 
 ## 10. Changes to this Policy
 
-The developer reserves the right to update this Policy at any time. Notifications about relevant changes will be made available within the App. Continued use after the publication of changes constitutes acceptance of the new version.
+Vektor Digital reserves the right to update this Policy at any time. Notifications about relevant changes will be made available within the App. Continued use after the publication of changes constitutes acceptance of the new version.
 
 ---
 
@@ -141,6 +141,6 @@ The developer reserves the right to update this Policy at any time. Notification
 For questions, requests, or complaints related to privacy and data protection, please contact:
 
 **Email:** contato@vektordigital.com.br  
-**Responsible Developer:** Gean Fornari
+**Responsible Developer:** Vektor Digital
 
 This service does not have a formally designated Data Protection Officer (DPO) for this version. If required, the developer may be contacted directly at the email address above.

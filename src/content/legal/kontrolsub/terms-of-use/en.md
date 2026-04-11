@@ -1,21 +1,21 @@
-# Terms of Use — Kontrol
+# Terms of Use — KontrolSub
 
 **Version:** 1.0  
-**Last updated:** March 19, 2026  
-**Developer:** Geancarlo Fornari  
+**Last updated:** April 11, 2026  
+**Developer:** Vektor Digital  
 **Contact:** contato@vektordigital.com.br
 
 ---
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using the **Kontrol** application ("App"), you expressly and irrevocably agree to these Terms of Use. If you do not agree with any part of this document, you are not authorized to use the App.
+By downloading, installing, or using the **KontrolSub** application ("App"), you expressly and irrevocably agree to these Terms of Use. If you do not agree with any part of this document, you are not authorized to use the App.
 
 ---
 
 ## 2. Description of Service
 
-**Kontrol** is a personal recurring subscription management app. It allows the user to:
+**KontrolSub** is a personal recurring subscription management app. It allows the user to:
 
 - Register, edit, and delete digital service subscriptions.
 - View consolidated monthly and annual expenses.
@@ -23,7 +23,7 @@ By downloading, installing, or using the **Kontrol** application ("App"), you ex
 - Receive local reminder notifications and expiration alerts.
 - Access a financial calendar of upcoming payments.
 
-Kontrol does **not** process payments, does **not** have access to bank accounts, and does **not** execute financial transactions on behalf of the user. All information is manually entered by the user.
+KontrolSub does **not** process payments, does **not** have access to bank accounts, and does **not** execute financial transactions on behalf of the user. All information is manually entered by the user.
 
 ---
 
@@ -31,7 +31,7 @@ Kontrol does **not** process payments, does **not** have access to bank accounts
 
 ### 3.1 Anonymous Registration
 
-Kontrol adopts a **Lazy Registration** approach: upon opening the App for the first time, an anonymous account is automatically created via Firebase Authentication, without requiring an email address or password. This allows immediate use of the App.
+KontrolSub adopts a **Lazy Registration** approach: upon opening the App for the first time, an anonymous account is automatically created via Firebase Authentication, without requiring an email address or password. This allows immediate use of the App.
 
 ### 3.2 Account Linking
 
@@ -44,7 +44,7 @@ Linking is not mandatory, but is recommended to ensure data is preserved in case
 
 ### 3.3 Account Responsibility
 
-You are responsible for maintaining the security of your device and the credentials of your linked Google or Apple accounts. The developer is not responsible for unauthorized access resulting from a security failure on the user's side.
+You are responsible for maintaining the security of your device and the credentials of your linked Google or Apple accounts. Vektor Digital is not responsible for unauthorized access resulting from a security failure on the user's side.
 
 ---
 
@@ -61,12 +61,12 @@ The user agrees to use the App exclusively for lawful and personal purposes. The
 
 ## 5. Plans, Subscriptions, and In-App Purchases
 
-Kontrol may offer paid plans and premium features through **in-app purchases** managed by:
+KontrolSub may offer paid plans and premium features through **in-app purchases** managed by:
 
 - **Apple App Store** (for iOS/iPadOS users).
 - **Google Play Store** (for Android users).
 
-Purchases are processed entirely by the respective app stores. The Kontrol developer does not store credit card data or any payment information. All refunds must be requested directly from Apple or Google, in accordance with each platform's policies.
+Purchases are processed entirely by the respective app stores. Vektor Digital does not store credit card data or any payment information. All refunds must be requested directly from Apple or Google, in accordance with each platform's policies.
 
 ---
 
@@ -74,7 +74,7 @@ Purchases are processed entirely by the respective app stores. The Kontrol devel
 
 All content in the App — including source code, design, logos, texts, icons, and features — is the exclusive property of the developer or licensed to them. Any reproduction, distribution, or modification without prior written authorization is prohibited.
 
-All third-party logos and trademarks displayed in Kontrol are the property of their respective owners. These logos are used solely for informational purposes, to identify the services to which the user's subscriptions relate. Kontrol is not affiliated with, endorsed by, or sponsored by any of the listed services.
+All third-party logos and trademarks displayed in KontrolSub are the property of their respective owners. These logos are used solely for informational purposes, to identify the services to which the user's subscriptions relate. KontrolSub is not affiliated with, endorsed by, or sponsored by any of the listed services.
 
 ---
 
@@ -82,15 +82,15 @@ All third-party logos and trademarks displayed in Kontrol are the property of th
 
 ### 7.1 Accuracy of Information
 
-Kontrol is a tool to assist with personal financial control. **We do not guarantee** the accuracy, completeness, or timeliness of information entered by the user. Financial decisions made based on App data are the sole responsibility of the user.
+KontrolSub is a tool to assist with personal financial control. **We do not guarantee** the accuracy, completeness, or timeliness of information entered by the user. Financial decisions made based on App data are the sole responsibility of the user.
 
 ### 7.2 Service Availability
 
-The App is provided **"as is"**, without warranty of uninterrupted availability. The developer reserves the right to modify, suspend, or discontinue the service at any time, with or without notice.
+The App is provided **"as is"**, without warranty of uninterrupted availability. Vektor Digital reserves the right to modify, suspend, or discontinue the service at any time, with or without notice.
 
 ### 7.3 Third-Party Services
 
-Kontrol integrates third-party services (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). The developer is not responsible for failures, outages, or changes in these external services.
+KontrolSub integrates third-party services (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). Vektor Digital is not responsible for failures, outages, or changes in these external services.
 
 ---
 
@@ -102,13 +102,13 @@ To the maximum extent permitted by applicable law, the developer will not be lia
 
 ## 9. Termination
 
-The developer may terminate or suspend the user's access to the App at any time without prior notice in the event of a violation of these Terms. The user may terminate use of the App at any time by uninstalling it from their device.
+Vektor Digital may terminate or suspend the user's access to the App at any time without prior notice in the event of a violation of these Terms. The user may terminate use of the App at any time by uninstalling it from their device.
 
 ---
 
 ## 10. Changes to Terms
 
-The developer reserves the right to modify these Terms at any time. Changes take effect upon publication. Continued use of the App after the publication of new Terms constitutes acceptance of the changes.
+Vektor Digital reserves the right to modify these Terms at any time. Changes take effect upon publication. Continued use of the App after the publication of new Terms constitutes acceptance of the changes.
 
 ---
 

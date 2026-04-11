@@ -1,21 +1,21 @@
-# Termos de Uso — Kontrol
+# Termos de Uso — KontrolSub
 
 **Versão:** 1.0  
-**Última atualização:** 19 de março de 2026  
-**Desenvolvedor:** Geancarlo Fornari  
+**Última atualização:** 11 de abril de 2026  
+**Desenvolvedor:** Vektor Digital  
 **Contato:** contato@vektordigital.com.br
 
 ---
 
 ## 1. Aceitação dos Termos
 
-Ao baixar, instalar ou utilizar o aplicativo **Kontrol** ("Aplicativo"), você concorda, de forma expressa e irrevogável, com estes Termos de Uso. Se não concordar com qualquer parte deste documento, você não está autorizado a utilizar o Aplicativo.
+Ao baixar, instalar ou utilizar o aplicativo **KontrolSub** ("Aplicativo"), você concorda, de forma expressa e irrevogável, com estes Termos de Uso. Se não concordar com qualquer parte deste documento, você não está autorizado a utilizar o Aplicativo.
 
 ---
 
 ## 2. Descrição do Serviço
 
-O **Kontrol** é um aplicativo de gestão pessoal de assinaturas recorrentes. Ele permite ao usuário:
+O **KontrolSub** é um aplicativo de gestão pessoal de assinaturas recorrentes. Ele permite ao usuário:
 
 - Cadastrar, editar e excluir assinaturas de serviços digitais.
 - Visualizar gastos mensais e anuais consolidados.
@@ -23,7 +23,7 @@ O **Kontrol** é um aplicativo de gestão pessoal de assinaturas recorrentes. El
 - Receber notificações locais de lembretes e vencimentos.
 - Acessar um calendário financeiro de pagamentos futuros.
 
-O Kontrol **não** realiza cobranças, **não** tem acesso a contas bancárias e **não** efetua transações financeiras em nome do usuário. Todas as informações são inseridas manualmente pelo próprio usuário.
+O KontrolSub **não** realiza cobranças, **não** tem acesso a contas bancárias e **não** efetua transações financeiras em nome do usuário. Todas as informações são inseridas manualmente pelo próprio usuário.
 
 ---
 
@@ -31,7 +31,7 @@ O Kontrol **não** realiza cobranças, **não** tem acesso a contas bancárias e
 
 ### 3.1 Registro Anônimo
 
-O Kontrol adota a abordagem de **Lazy Registration**: ao abrir o aplicativo pela primeira vez, uma conta anônima é criada automaticamente via Firebase Authentication, sem exigência de e-mail ou senha. Isso permite o uso imediato do Aplicativo.
+O KontrolSub adota a abordagem de **Lazy Registration**: ao abrir o aplicativo pela primeira vez, uma conta anônima é criada automaticamente via Firebase Authentication, sem exigência de e-mail ou senha. Isso permite o uso imediato do Aplicativo.
 
 ### 3.2 Vinculação de Conta
 
@@ -44,7 +44,7 @@ A vinculação não é obrigatória, mas é recomendada para garantir que os dad
 
 ### 3.3 Responsabilidade da Conta
 
-Você é responsável por manter a segurança do seu dispositivo e das credenciais das contas Google ou Apple vinculadas. O desenvolvedor não se responsabiliza por acessos não autorizados decorrentes de falha de segurança do lado do usuário.
+Você é responsável por manter a segurança do seu dispositivo e das credenciais das contas Google ou Apple vinculadas. A Vektor Digital não se responsabiliza por acessos não autorizados decorrentes de falha de segurança do lado do usuário.
 
 ---
 
@@ -61,20 +61,20 @@ O usuário se compromete a utilizar o Aplicativo exclusivamente para fins lícit
 
 ## 5. Planos, Assinatura e Compras In-App
 
-O Kontrol pode oferecer planos pagos e funcionalidades premium por meio de **compras in-app** gerenciadas pelas plataformas:
+O KontrolSub pode oferecer planos pagos e funcionalidades premium por meio de **compras in-app** gerenciadas pelas plataformas:
 
 - **Apple App Store** (para usuários iOS/iPadOS).
 - **Google Play Store** (para usuários Android).
 
-As compras são processadas integralmente pelas respectivas lojas de aplicativos. O desenvolvedor do Kontrol não armazena dados de cartão de crédito ou quaisquer informações de pagamento. Todos os reembolsos devem ser solicitados diretamente à Apple ou ao Google, de acordo com as políticas de cada plataforma.
+As compras são processadas integralmente pelas respectivas lojas de aplicativos. A Vektor Digital não armazena dados de cartão de crédito ou quaisquer informações de pagamento. Todos os reembolsos devem ser solicitados diretamente à Apple ou ao Google, de acordo com as políticas de cada plataforma.
 
 ---
 
 ## 6. Propriedade Intelectual
 
-Todo o conteúdo do Aplicativo — incluindo código-fonte, design, logotipos, textos, ícones e funcionalidades — é de propriedade exclusiva do desenvolvedor ou licenciado a ele. É vedada qualquer reprodução, distribuição ou modificação sem autorização prévia e por escrito.
+Todo o conteúdo do Aplicativo — incluindo código-fonte, design, logotipos, textos, ícones e funcionalidades — é de propriedade exclusiva da Vektor Digital ou licenciado a ela. É vedada qualquer reprodução, distribuição ou modificação sem autorização prévia e por escrito.
 
-Todos os logotipos e marcas de terceiros exibidos no Kontrol são propriedade de seus respectivos titulares. O uso desses logotipos tem finalidade exclusivamente informativa, para identificar os serviços aos quais as assinaturas do usuário se referem. O Kontrol não é afiliado, endossado ou patrocinado por nenhum dos serviços listados.
+Todos os logotipos e marcas de terceiros exibidos no KontrolSub são propriedade de seus respectivos titulares. O uso desses logotipos tem finalidade exclusivamente informativa, para identificar os serviços aos quais as assinaturas do usuário se referem. O KontrolSub não é afiliado, endossado ou patrocinado por nenhum dos serviços listados.
 
 ---
 
@@ -82,33 +82,33 @@ Todos os logotipos e marcas de terceiros exibidos no Kontrol são propriedade de
 
 ### 7.1 Precisão das Informações
 
-O Kontrol é uma ferramenta de auxílio ao controle financeiro pessoal. **Não garantimos** a precisão, completude ou atualidade das informações inseridas pelo próprio usuário. Decisões financeiras tomadas com base nos dados do Aplicativo são de exclusiva responsabilidade do usuário.
+O KontrolSub é uma ferramenta de auxílio ao controle financeiro pessoal. **Não garantimos** a precisão, completude ou atualidade das informações inseridas pelo próprio usuário. Decisões financeiras tomadas com base nos dados do Aplicativo são de exclusiva responsabilidade do usuário.
 
 ### 7.2 Disponibilidade do Serviço
 
-O Aplicativo é fornecido **"no estado em que se encontra"** (*as is*), sem garantia de disponibilidade ininterrupta. O desenvolvedor se reserva o direito de modificar, suspender ou encerrar o serviço a qualquer momento, com ou sem aviso prévio.
+O Aplicativo é fornecido **"no estado em que se encontra"** (*as is*), sem garantia de disponibilidade ininterrupta. A Vektor Digital se reserva o direito de modificar, suspender ou encerrar o serviço a qualquer momento, com ou sem aviso prévio.
 
 ### 7.3 Serviços de Terceiros
 
-O Kontrol integra serviços de terceiros (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). O desenvolvedor não se responsabiliza por falhas, indisponibilidades ou alterações nesses serviços externos.
+O KontrolSub integra serviços de terceiros (Google Firebase, RevenueCat, Google Sign-In, Apple Sign-In). A Vektor Digital não se responsabiliza por falhas, indisponibilidades ou alterações nesses serviços externos.
 
 ---
 
 ## 8. Limitação de Responsabilidade
 
-Na máxima extensão permitida pela legislação aplicável, o desenvolvedor não será responsável por quaisquer danos indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da impossibilidade de uso do Aplicativo, incluindo, sem limitação, perda de dados ou de lucros.
+Na máxima extensão permitida pela legislação aplicável, a Vektor Digital não será responsável por quaisquer danos indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da impossibilidade de uso do Aplicativo, incluindo, sem limitação, perda de dados ou de lucros.
 
 ---
 
 ## 9. Rescisão
 
-O desenvolvedor poderá encerrar ou suspender o acesso do usuário ao Aplicativo, a qualquer momento e sem aviso prévio, caso verifique violação destes Termos. O usuário pode encerrar o uso do Aplicativo a qualquer momento desinstalando-o do dispositivo.
+A Vektor Digital poderá encerrar ou suspender o acesso do usuário ao Aplicativo, a qualquer momento e sem aviso prévio, caso verifique violação destes Termos. O usuário pode encerrar o uso do Aplicativo a qualquer momento desinstalando-o do dispositivo.
 
 ---
 
 ## 10. Alterações nos Termos
 
-O desenvolvedor se reserva o direito de modificar estes Termos a qualquer momento. As alterações entram em vigor no momento de sua publicação. O uso continuado do Aplicativo após a publicação de novos Termos constitui aceitação das alterações.
+A Vektor Digital se reserva o direito de modificar estes Termos a qualquer momento. As alterações entram em vigor no momento de sua publicação. O uso continuado do Aplicativo após a publicação de novos Termos constitui aceitação das alterações.
 
 ---
 

@@ -1,15 +1,15 @@
-# Política de Privacidade — Kontrol
+# Política de Privacidade — KontrolSub
 
 **Versão:** 1.0  
-**Última atualização:** 19 de março de 2026  
-**Desenvolvedor:** Geancarlo Fornari  
+**Última atualização:** 11 de abril de 2026  
+**Desenvolvedor:** Vektor Digital  
 **Contato:** contato@vektordigital.com.br
 
 ---
 
 ## 1. Introdução
 
-A privacidade dos nossos usuários é uma prioridade. Esta Política de Privacidade descreve, com transparência, quais dados o aplicativo **Kontrol** coleta, como os utiliza, com quem os compartilha e como você pode exercer seus direitos.
+A privacidade dos nossos usuários é uma prioridade. Esta Política de Privacidade descreve, com transparência, quais dados o aplicativo **KontrolSub** coleta, como os utiliza, com quem os compartilha e como você pode exercer seus direitos.
 
 Esta política está em conformidade com a **Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)** e, no que aplicável, com o **Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR)**.
 
@@ -19,7 +19,7 @@ Esta política está em conformidade com a **Lei Geral de Proteção de Dados Pe
 
 ### 2.1 Dados de Identificação e Autenticação
 
-Ao criar sua conta no Kontrol, os seguintes dados são fornecidos pelos serviços de autenticação utilizados:
+Ao criar sua conta no KontrolSub, os seguintes dados são fornecidos pelos serviços de autenticação utilizados:
 
 | Dado | Fonte | Condição |
 |---|---|---|
@@ -27,7 +27,7 @@ Ao criar sua conta no Kontrol, os seguintes dados são fornecidos pelos serviço
 | Endereço de e-mail | Google ou Apple | Somente se o usuário vincular uma conta |
 | Nome completo | Google ou Apple | Somente se o usuário vincular uma conta |
 
-> **Nota sobre a Apple:** O Sign In With Apple permite que o usuário opte por ocultar seu e-mail real, fornecendo um e-mail substituto gerado pela Apple. O Kontrol aceita e respeita essa preferência.
+> **Nota sobre a Apple:** O Sign In With Apple permite que o usuário opte por ocultar seu e-mail real, fornecendo um e-mail substituto gerado pela Apple. O KontrolSub aceita e respeita essa preferência.
 
 ### 2.2 Dados Financeiros Inseridos pelo Usuário
 
@@ -46,7 +46,7 @@ Ao cadastrar assinaturas, os seguintes dados são armazenados no Cloud Firestore
 
 ### 2.3 Histórico de Pagamentos
 
-O Kontrol gera e armazena automaticamente um **histórico mensal de gastos** no Firestore, calculado com base nas assinaturas cadastradas. Esses dados são usados para exibir relatórios de gastos ao usuário.
+O KontrolSub gera e armazena automaticamente um **histórico mensal de gastos** no Firestore, calculado com base nas assinaturas cadastradas. Esses dados são usados para exibir relatórios de gastos ao usuário.
 
 ### 2.4 Preferências Locais
 
@@ -54,7 +54,7 @@ Dados de preferência do usuário (como idioma e estado de uso pela primeira vez
 
 ### 2.5 Dados Coletados Automaticamente por Terceiros
 
-O Kontrol utiliza serviços de terceiros que podem coletar dados de forma independente, conforme suas próprias políticas:
+O KontrolSub utiliza serviços de terceiros que podem coletar dados de forma independente, conforme suas próprias políticas:
 
 | Serviço | Finalidade | Política de Privacidade |
 |---|---|---|
@@ -75,7 +75,7 @@ Os dados coletados são utilizados exclusivamente para:
 4. **Relatórios:** Gerar gráficos e histórico de gastos mensais.
 5. **Gerenciamento de planos:** Processar e verificar assinaturas premium dentro do Aplicativo via RevenueCat.
 
-**O Kontrol não utiliza seus dados para fins publicitários, não os vende e não os compartilha com terceiros além dos serviços listados na Seção 2.5.**
+**O KontrolSub não utiliza seus dados para fins publicitários, não os vende e não os compartilha com terceiros além dos serviços listados na Seção 2.5.**
 
 ---
 
@@ -91,7 +91,7 @@ Os dados sincronizados são armazenados na infraestrutura do **Google Firebase (
 
 Os dados são organizados de forma que **cada usuário acessa exclusivamente os seus próprios dados**, garantidos por Regras de Segurança do Firestore vinculadas ao UID de autenticação.
 
-O desenvolvedor do Kontrol emprega esforços razoáveis para proteger suas informações, mas nenhum sistema de segurança é infalível. Recomendamos manter o sistema operacional e o Aplicativo sempre atualizados.
+O desenvolvedor do KontrolSub emprega esforços razoáveis para proteger suas informações, mas nenhum sistema de segurança é infalível. Recomendamos manter o sistema operacional e o Aplicativo sempre atualizados.
 
 ---
 
@@ -120,7 +120,7 @@ Para exercer qualquer um desses direitos, entre em contato pelo e-mail: **contat
 
 ## 8. Dados de Menores
 
-O Kontrol **não é destinado a menores de 13 anos**. Não coletamos intencionalmente dados pessoais de crianças. Se tomarmos conhecimento de que coletamos dados de um menor sem o consentimento dos responsáveis, tomaremos as medidas necessárias para excluir essas informações imediatamente.
+O KontrolSub **não é destinado a menores de 13 anos**. Não coletamos intencionalmente dados pessoais de crianças. Se tomarmos conhecimento de que coletamos dados de um menor sem o consentimento dos responsáveis, tomaremos as medidas necessárias para excluir essas informações imediatamente.
 
 ---
 
@@ -141,6 +141,6 @@ O desenvolvedor se reserva o direito de atualizar esta Política a qualquer mome
 Em caso de dúvidas, solicitações ou reclamações relacionadas à privacidade e proteção de dados, entre em contato:
 
 **E-mail:** contato@vektordigital.com.br
-**Desenvolvedor Responsável:** Gean Fornari
+**Desenvolvedor Responsável:** Vektor Digital
 
-Este serviço não possui Encarregado de Dados (DPO) formalmente designado para esta versão. Caso necessário, o desenvolvedor poderá ser contactado diretamente pelo e-mail acima.
+Este serviço não possui Encarregado de Dados (DPO) formalmente designado para esta versão. Caso necessário, a Vektor Digital poderá ser contactado diretamente pelo e-mail acima.
