@@ -1,0 +1,8 @@
+# Contém código gerado por IA
+# Instruções para robôs de busca (Google, Bing, etc.)
+
+User-agent: *
+Allow: /
+
+# Mapeamento do Site
+Sitemap: https://vektordigital.com.br/sitemap-index.xml
