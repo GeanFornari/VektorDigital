@@ -30,6 +30,7 @@ const t = useTranslations(lang);
             id="newsletter-form" 
             class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto mb-16 transition-all duration-500"
             data-sending={t('footer.newsletter.sending')}
+            data-error={t('footer.newsletter.error')}
         >
             <input 
                 type="email" 
@@ -75,24 +76,48 @@ const t = useTranslations(lang);
 
 <script>
     const form = document.getElementById('newsletter-form') as HTMLFormElement;
+    const emailInput = document.getElementById('email-input') as HTMLInputElement;
     const successMsg = document.getElementById('success-message');
     const sendingText = form?.getAttribute('data-sending') || 'Enviando...';
 
-    form?.addEventListener('submit', (e) => {
+    form?.addEventListener('submit', async (e) => {
         e.preventDefault();
         
         const btn = form.querySelector('button');
+        const originalContent = btn?.innerHTML;
+        const email = emailInput.value;
+
         if (btn) {
             btn.disabled = true;
             btn.innerHTML = `<span class="animate-pulse">${sendingText}</span>`;
         }
 
-        setTimeout(() => {
-            form.classList.add('opacity-0', 'scale-95');
-            setTimeout(() => {
-                form.classList.add('hidden');
-                successMsg?.classList.remove('hidden');
-            }, 500);
-        }, 1500);
+        try {
+            const response = await fetch('/api/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email })
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                form.classList.add('opacity-0', 'scale-95');
+                setTimeout(() => {
+                    form.classList.add('hidden');
+                    successMsg?.classList.remove('hidden');
+                }, 500);
+            } else {
+                throw new Error(result.message || 'Erro ao processar.');
+            }
+        } catch (error) {
+            console.error('Erro na subscrição:', error);
+            if (btn) {
+                btn.disabled = false;
+                btn.innerHTML = originalContent || '';
+            }
+            const errorMsg = form?.getAttribute('data-error') || 'Erro ao processar.';
+            alert(errorMsg);
+        }
     });
 </script>
