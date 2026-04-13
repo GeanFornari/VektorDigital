@@ -25,7 +25,7 @@ const {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://vektordigital.com.br');
 
 // Lista de idiomas suportados para SEO hreflang
-const locales = ["pt-br", "en-us", "es", "fr", "de"];
+const locales = ["pt", "en", "es", "fr", "de"];
 ---
 
 <!doctype html>
@@ -43,10 +43,10 @@ const locales = ["pt-br", "en-us", "es", "fr", "de"];
 			<link 
 				rel="alternate" 
 				hreflang={locale} 
-				href={new URL(`/${locale}${Astro.url.pathname.replace(/^\/(?:pt-br|en-us|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} 
+				href={new URL(`/${locale}${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} 
 			/>
 		))}
-		<link rel="alternate" hreflang="x-default" href={new URL(`/pt-br${Astro.url.pathname.replace(/^\/(?:pt-br|en-us|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} />
+		<link rel="alternate" hreflang="x-default" href={new URL(`/pt${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} />
 
 		<!-- Primary Meta Tags -->
 		<title>{title} | KontrolSub by Vektor Digital</title>

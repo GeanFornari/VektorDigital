@@ -9,9 +9,8 @@ export default defineConfig({
   site: 'https://vektordigital.com.br',
   integrations: [sitemap()],
   i18n: {
-    // TODO: mudar para en-us quando as linguagens estiverem prontas.
-    defaultLocale: "pt-br",
-    locales: ["pt-br", "en-us", "es", "fr", "de"],
+    defaultLocale: "pt",
+    locales: ["pt", "en", "es", "fr", "de"],
   },
   vite: {
     plugins: [tailwindcss()]
