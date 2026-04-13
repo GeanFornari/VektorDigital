@@ -8,7 +8,6 @@ import vercel from '@astrojs/vercel';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://vektordigital.com.br',
-  output: 'hybrid',
   adapter: vercel(),
   integrations: [sitemap()],
   i18n: {
