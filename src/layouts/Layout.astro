@@ -39,14 +39,17 @@ const locales = ["pt", "en", "es", "fr", "de"];
 		<meta name="generator" content={Astro.generator} />
 
 		<!-- SEO Localizado (hreflang) -->
-		{locales.map((locale) => (
-			<link 
-				rel="alternate" 
-				hreflang={locale} 
-				href={new URL(`/${locale}${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} 
-			/>
-		))}
-		<link rel="alternate" hreflang="x-default" href={new URL(`/pt${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '')}`, Astro.site || 'https://vektordigital.com.br')} />
+		{locales.map((locale) => {
+			const localizedPath = `/${locale}${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '') || '/'}`.replace(/\/+/g, '/');
+			return (
+				<link 
+					rel="alternate" 
+					hreflang={locale} 
+					href={new URL(localizedPath, Astro.site)} 
+				/>
+			);
+		})}
+		<link rel="alternate" hreflang="x-default" href={new URL(`/pt${Astro.url.pathname.replace(/^\/(?:pt|en|es|fr|de)/, '') || '/'}`.replace(/\/+/g, '/'), Astro.site)} />
 
 		<!-- Primary Meta Tags -->
 		<title>{title} | KontrolSub by Vektor Digital</title>

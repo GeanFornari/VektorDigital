@@ -18,9 +18,8 @@ const t = useTranslations(lang);
 
 // getLocalizedPath: Gera a URL para o idioma selecionado mantendo a rota atual.
 const getLocalizedPath = (targetLang: string) => {
-    const segments = Astro.url.pathname.split('/');
-    segments[1] = targetLang;
-    return segments.join('/');
+    const segments = Astro.url.pathname.split('/').filter(Boolean);
+    return `/${targetLang}/${segments.slice(1).join('/')}`.replace(/\/+$/, '/').replace(/\/+/g, '/');
 };
 ---
 
