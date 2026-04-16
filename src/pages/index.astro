@@ -1,27 +1,19 @@
 ---
 // Contém código gerado por IA
-// IMPORTANTE: Esta página deve ser mantida em sincronia total com src/pages/[lang]/kontrolsub/index.astro
-// Build Trigger: Jan 6, 2026 - Force complete site regeneration
+// ignore_for_file: dangling_library_doc_comments
 /**
- * Página principal dinâmica (i18n)
+ * Página principal em português (raiz)
+ * Esta página serve o conteúdo diretamente em vektordigital.com.br/ sem redirecionamentos.
  */
-import { languages } from '../../i18n/ui';
-import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
-import FeatureCard from '../../components/FeatureCard.astro';
-import AppMockup from '../../components/AppMockup.astro';
-import Footer from '../../components/Footer.astro';
-import { useTranslations } from '../../i18n/utils';
+import { languages } from '../i18n/ui';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import AppMockup from '../components/AppMockup.astro';
+import Footer from '../components/Footer.astro';
+import { useTranslations } from '../i18n/utils';
 
-export function getStaticPaths() {
-  return Object.keys(languages)
-    .filter((lang) => lang !== 'pt')
-    .map((lang) => ({
-      params: { lang },
-    }));
-}
-
-const { lang } = Astro.params;
+const lang = 'pt';
 const t = useTranslations(lang as keyof typeof languages);
 ---
 
